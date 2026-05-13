@@ -1,0 +1,6 @@
+# .gitattributes file
+#
+# Enforce UTF-8 encoding for all text files
+# Prevents Windows CRLF vs Linux LF issues
+* text=auto eol=lf
+*.env binary

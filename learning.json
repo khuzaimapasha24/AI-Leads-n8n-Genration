@@ -1,0 +1,49 @@
+{
+    "total_processed": 43,
+    "total_passed_qc": 43,
+    "avg_word_count": 95.4,
+    "pain_performance": {
+        "P9": {
+            "used": 2,
+            "passed": 2
+        },
+        "P1": {
+            "used": 3,
+            "passed": 3
+        },
+        "P6": {
+            "used": 1,
+            "passed": 1
+        },
+        "P3": {
+            "used": 5,
+            "passed": 5
+        },
+        "P2": {
+            "used": 1,
+            "passed": 1
+        },
+        "unknown": {
+            "used": 31,
+            "passed": 31
+        }
+    },
+    "best_email_by_pain": {
+        "P9": "Hi,\n\nI was looking at funeral services in Blackley and Michael Kennedy Funeral Services came up.\n\nWhen the site loads, there is no clear next step visible. That friction often sends people to the next result.\n\nIt is straightforward to fix once noticed.\n\nWe build websites specifically for funeral homes, often in under 14 days, with a design that reflects the care you actually put in.\n\nAn owner told us three families mentioned the website before their first call, within the first month of going live.\n\nWould it be worth a 15-minute call this week to see what we could do for Michael Kennedy Funeral Services?\n\nCraig",
+        "P1": "Hi John,\n\nJohn R Tollitt Funeral Director came up when I was looking at funeral services in Manchester.\n\nWithout a site, anyone searching for funeral services in Manchester will not find you. They will go to whoever appears first.\n\nIt is often a straightforward fix.\n\nWe build websites specifically for funeral homes, in under 14 days, speed-optimised and built to load fast on any phone.\n\nA funeral home in a nearby region saw 6 new enquiries in the first three weeks after going live.\n\nWould it be worth a 15-minute call to see what we could do for John R Tollitt Funeral Director?\n\nCraig",
+        "P6": "Hi Louise,\n\nLouise Walch Family Funeral Services came up while I was researching funeral services in Manchester.\n\nIt looks like the site is not showing up in the top Google results for funeral services in Manchester. Competitors are likely getting calls that should be going to you.\n\nIt is often a relatively simple fix, and the difference it makes is noticeable.\n\nWe build websites specifically for funeral homes, often in under 14 days, with local SEO that gets you visible in Manchester searches.\n\nA similar business went from page three to the top three local results in Google within 60 days of launching their new site.\n\nWould it be worth a 15-minute call this week to see what we could do for Louise Walch Family Funeral Services?\n\nCraig",
+        "P3": "Hi,\n\nCheethams Funeral Service came up while I was researching funeral services in Manchester.\n\nOn a phone, the site takes well over 15 seconds to load. That is often long enough for people to move on to the next option.\n\nIt is a straightforward fix, and the difference it makes is noticeable.\n\nWe build websites specifically for funeral homes, often in under 14 days, speed-optimised and built to load fast on any phone.\n\nOne director we worked with picked up 6 new enquiries in the first three weeks after launching their site.\n\nWould it be worth a 15-minute call this week to see what we could do for Cheethams Funeral Service?\n\nCraig",
+        "P2": "Hi,\n\nI was looking into funeral services in Manchester and The Green Funeral Services caught my eye.\n\nThe website does not display well on mobile phones. Most people search on their phones, and that first impression shapes their next step.\n\nIt is straightforward to sort once caught.\n\nWe build websites specifically for funeral homes, often in under 14 days, speed-optimised and built to load fast on any phone.\n\nOne we worked with in a nearby region had 6 enquiries come in within three weeks of the new site launching.\n\nWould it be worth a 15-minute call this week to see what we could do for The Green Funeral Services?\n\nCraig",
+        "unknown": "Subject: lilleywhite first steps\n\nHi,\n\nI was looking at the Lilleywhite Funeral Service site this morning.\n\nIt looks like families visiting the site have to scroll a bit to find how to get in touch.\n\nWe help funeral homes make sure that first step is clear and easy for families.\n\nWould it be worth 15 minutes to chat about making that clearer for Lilleywhite Funeral Service?\n\nCraig"
+    },
+    "recent_qc_failures": [],
+    "niche_performance": {
+        "Funeral service & cemetery": {
+            "used": 43,
+            "passed": 43
+        }
+    },
+    "tips_learned": [
+        "Highest converting angle is unknown with a 100% QC pass rate."
+    ]
+}

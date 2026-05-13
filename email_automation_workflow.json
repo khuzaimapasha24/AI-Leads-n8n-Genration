@@ -1,0 +1,713 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * 1-5"
+            }
+          ]
+        }
+      },
+      "id": "281bba21-304c-4edc-b7ea-46367aaa0d3d",
+      "name": "Daily Trigger (9AM Weekdays)1",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        -18016,
+        8928
+      ]
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "documentId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "1DfcB2TEXXH0BtQFf6aDbeattclLGNH9Dp_DYV9ZVd1U"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "Sheet1",
+          "mode": "name"
+        },
+        "options": {}
+      },
+      "id": "36997f1d-cd04-42fa-9cdc-479db46845a5",
+      "name": "Get Leads (First Email Not Sent)1",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.2,
+      "position": [
+        -17792,
+        8928
+      ],
+      "credentials": {
+        "googleApi": {
+          "id": "ipIBULeAJdXEFUAe",
+          "name": "Google Sheets account 3"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 1
+          },
+          "conditions": [
+            {
+              "id": "check-leads-exist",
+              "leftValue": "={{ $json.Email }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "9f9c1da6-e9b3-4d6e-9061-f3590319834c",
+      "name": "Any Leads Today?1",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        -17584,
+        8928
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Limit to first 50 leads per day\nconst items = $input.all();\nconst limit = 50;\nconst limited = items.slice(0, limit);\nreturn limited;"
+      },
+      "id": "88c278dc-0f6c-4301-941e-7ced4fdd9398",
+      "name": "Limit to 50 Leads1",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -17360,
+        8848
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "de1186ce-b252-4685-b2a2-8bcfe08495a0",
+      "name": "Process Each Lead1",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        -17136,
+        8848
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:5680/process",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"business_name\": \"{{ $json['Company Name'] }}\",\n  \"email\": \"{{ $json.Email }}\",\n  \"website\": \"{{ $json.Website }}\",\n  \"niche\": \"{{ $json.Industry }}\"\n}",
+        "options": {}
+      },
+      "id": "ba8ccd4f-436a-4035-981b-3ea415dd73a0",
+      "name": "Process Lead (Python)1",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -16912,
+        8848
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Parse result from local API bridge\nconst data = $json;\nreturn {\n  json: {\n    'Company Name': data.business_name || data['Company Name'] || '',\n    Email: data.email || data.Email || '',\n    Website: data.website || data.Website || '',\n    Issues: data.business_bio || data.issues || '',\n    'Email Body': data.email_body || '',\n    'First Email Sent': data.email_body ? 'PENDING' : 'ERROR',\n    'Processing Date': new Date().toISOString().split('T')[0]\n  }\n};"
+      },
+      "id": "35c8f91e-5000-466b-a711-315ffc2abf17",
+      "name": "Parse Python Output1",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -16704,
+        8848
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": false,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 1
+          },
+          "conditions": [
+            {
+              "id": "check-email-generated",
+              "leftValue": "={{ $json['Email Body'] }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "41465149-020b-485b-a4f8-0871bd30e1ea",
+      "name": "Email Generated?1",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        -16480,
+        8848
+      ]
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "operation": "update",
+        "documentId": {
+          "__rl": true,
+          "value": "1DfcB2TEXXH0BtQFf6aDbeattclLGNH9Dp_DYV9ZVd1U",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "Sheet1",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Issues": "={{ $json.Issues }}",
+            "Email Body": "={{ $json['Email Body'] }}",
+            "First Email Sent": "={{ $json['First Email Sent'] }}",
+            "Processing Date": "={{ $json['Processing Date'] }}"
+          },
+          "matchingColumns": [
+            "Email"
+          ]
+        },
+        "columnToMatchOn": "Email",
+        "options": {}
+      },
+      "id": "cfb72dee-2712-47a6-9b35-d8e3aa221917",
+      "name": "Update Sheet Row1",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.2,
+      "position": [
+        -16256,
+        8768
+      ],
+      "credentials": {
+        "googleApi": {
+          "id": "ipIBULeAJdXEFUAe",
+          "name": "Google Sheets account 3"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "operation": "update",
+        "documentId": {
+          "__rl": true,
+          "value": "1DfcB2TEXXH0BtQFf6aDbeattclLGNH9Dp_DYV9ZVd1U",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "Sheet1",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Issues": "SCRIPT_ERROR - Check bridge logs",
+            "First Email Sent": "ERROR"
+          },
+          "matchingColumns": [
+            "Email"
+          ]
+        },
+        "columnToMatchOn": "Email",
+        "options": {}
+      },
+      "id": "87c99d51-4aab-4fdd-9e5c-d0a06113061e",
+      "name": "Log Error in Sheet1",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.2,
+      "position": [
+        -16256,
+        8960
+      ],
+      "credentials": {
+        "googleApi": {
+          "id": "ipIBULeAJdXEFUAe",
+          "name": "Google Sheets account 3"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "documentId": {
+          "__rl": true,
+          "value": "1DfcB2TEXXH0BtQFf6aDbeattclLGNH9Dp_DYV9ZVd1U",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "Sheet1",
+          "mode": "name"
+        },
+        "filtersUI": {
+          "values": [
+            {
+              "lookupColumn": "First Email Sent",
+              "lookupValue": "PENDING"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "8c9a66d1-3c66-4576-b236-18fc30026cbb",
+      "name": "Get PENDING Leads for Smartlead1",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.2,
+      "position": [
+        -15824,
+        8768
+      ],
+      "credentials": {
+        "googleApi": {
+          "id": "ipIBULeAJdXEFUAe",
+          "name": "Google Sheets account 3"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "19398e19-6478-413d-b8f4-669657eed829",
+      "name": "Loop Each Pending Lead1",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        -15600,
+        8768
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://server.smartlead.ai/api/v1/campaigns/YOUR_CAMPAIGN_ID/leads",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "api_key",
+              "value": "4eb76153-4ebb-480c-9da7-60365dc52712_s5sidbr"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"lead_list\": [\n    {\n      \"email\": \"{{ $json.Email }}\",\n      \"first_name\": \"{{ $json['Company Name'].split(' ')[0] }}\",\n      \"last_name\": \"{{ $json['Company Name'].split(' ').slice(1).join(' ') }}\",\n      \"company_name\": \"{{ $json['Company Name'] }}\",\n      \"website\": \"{{ $json.Website }}\",\n      \"custom_fields\": {\n        \"issues\": \"{{ $json.Issues }}\",\n        \"email_body\": \"{{ $json['Email Body'] }}\"\n      }\n    }\n  ],\n  \"settings\": {\n    \"reuse_lead_from_campaign\": false,\n    \"ignore_global_block_list\": false,\n    \"ignore_unsubscribe_list\": false\n  }\n}",
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "neverError": true,
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "5f281034-d387-4de2-812b-e84240c60607",
+      "name": "Add Lead to Smartlead Campaign1",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -15376,
+        8768
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 1
+          },
+          "conditions": [
+            {
+              "id": "check-smartlead-ok",
+              "leftValue": "={{ $json.ok }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "3e0e8826-8df7-4c14-b963-6841be81fe27",
+      "name": "Smartlead Success?1",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        -15152,
+        8768
+      ]
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "operation": "update",
+        "documentId": {
+          "__rl": true,
+          "value": "1DfcB2TEXXH0BtQFf6aDbeattclLGNH9Dp_DYV9ZVd1U",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "Sheet1",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "First Email Sent": "TRUE",
+            "Sent Date": "={{ new Date().toISOString().split('T')[0] }}"
+          },
+          "matchingColumns": [
+            "Email"
+          ]
+        },
+        "columnToMatchOn": "Email",
+        "options": {}
+      },
+      "id": "9f040aeb-5a08-4859-826f-46ecc0413c7d",
+      "name": "Mark as Sent in Sheet1",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.2,
+      "position": [
+        -14944,
+        8688
+      ],
+      "credentials": {
+        "googleApi": {
+          "id": "ipIBULeAJdXEFUAe",
+          "name": "Google Sheets account 3"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "operation": "update",
+        "documentId": {
+          "__rl": true,
+          "value": "1DfcB2TEXXH0BtQFf6aDbeattclLGNH9Dp_DYV9ZVd1U",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "Sheet1",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "First Email Sent": "SMARTLEAD_ERROR"
+          },
+          "matchingColumns": [
+            "Email"
+          ]
+        },
+        "columnToMatchOn": "Email",
+        "options": {}
+      },
+      "id": "c5ac5caf-2dcd-4e5a-9409-18dd64f0c4b7",
+      "name": "Log Smartlead Error1",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.2,
+      "position": [
+        -14944,
+        8848
+      ],
+      "credentials": {
+        "googleApi": {
+          "id": "ipIBULeAJdXEFUAe",
+          "name": "Google Sheets account 3"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Workflow ended - no leads to process today\nconsole.log('No unprocessed leads found today - workflow skipped');\nreturn { json: { message: 'No leads to process', date: new Date().toISOString() } };"
+      },
+      "id": "5e4029f2-714a-43a4-95cf-004640c12e01",
+      "name": "No Leads - Stop1",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -17360,
+        9040
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "return { json: { status: 'success', message: 'All leads processed and sent to Smartlead', timestamp: new Date().toISOString() } };"
+      },
+      "id": "f15ca8e9-c699-4ebb-8aa2-7c85260df685",
+      "name": "Workflow Finished Successfully",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -14720,
+        8768
+      ]
+    }
+  ],
+  "connections": {
+    "Daily Trigger (9AM Weekdays)1": {
+      "main": [
+        [
+          {
+            "node": "Get Leads (First Email Not Sent)1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Leads (First Email Not Sent)1": {
+      "main": [
+        [
+          {
+            "node": "Any Leads Today?1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Any Leads Today?1": {
+      "main": [
+        [
+          {
+            "node": "Limit to 50 Leads1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "No Leads - Stop1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit to 50 Leads1": {
+      "main": [
+        [
+          {
+            "node": "Process Each Lead1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Process Each Lead1": {
+      "main": [
+        [
+          {
+            "node": "Get PENDING Leads for Smartlead1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Process Lead (Python)1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Process Lead (Python)1": {
+      "main": [
+        [
+          {
+            "node": "Parse Python Output1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse Python Output1": {
+      "main": [
+        [
+          {
+            "node": "Email Generated?1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Email Generated?1": {
+      "main": [
+        [
+          {
+            "node": "Update Sheet Row1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Log Error in Sheet1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Update Sheet Row1": {
+      "main": [
+        [
+          {
+            "node": "Process Each Lead1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log Error in Sheet1": {
+      "main": [
+        [
+          {
+            "node": "Process Each Lead1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get PENDING Leads for Smartlead1": {
+      "main": [
+        [
+          {
+            "node": "Loop Each Pending Lead1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Each Pending Lead1": {
+      "main": [
+        [
+          {
+            "node": "Workflow Finished Successfully",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Add Lead to Smartlead Campaign1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Add Lead to Smartlead Campaign1": {
+      "main": [
+        [
+          {
+            "node": "Smartlead Success?1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Smartlead Success?1": {
+      "main": [
+        [
+          {
+            "node": "Mark as Sent in Sheet1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Log Smartlead Error1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Mark as Sent in Sheet1": {
+      "main": [
+        [
+          {
+            "node": "Loop Each Pending Lead1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log Smartlead Error1": {
+      "main": [
+        [
+          {
+            "node": "Loop Each Pending Lead1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "8e5c841e50b4e1fb4b8ff54f26aefd4dd2f89ff0fac761d3af7a56db247a00cd"
+  }
+}
