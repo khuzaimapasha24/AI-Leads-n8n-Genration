@@ -4,3 +4,5 @@
 # Prevents Windows CRLF vs Linux LF issues
 * text=auto eol=lf
 *.env binary
+.env
+/xenon-lyceum-495513-e6-2d079941c92b.json
