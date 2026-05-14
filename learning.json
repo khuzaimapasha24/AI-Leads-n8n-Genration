@@ -1,7 +1,7 @@
 {
-    "total_processed": 44,
-    "total_passed_qc": 44,
-    "avg_word_count": 95.2,
+    "total_processed": 51,
+    "total_passed_qc": 51,
+    "avg_word_count": 93.3,
     "pain_performance": {
         "P9": {
             "used": 2,
@@ -24,8 +24,8 @@
             "passed": 1
         },
         "unknown": {
-            "used": 32,
-            "passed": 32
+            "used": 39,
+            "passed": 39
         }
     },
     "best_email_by_pain": {
@@ -39,8 +39,8 @@
     "recent_qc_failures": [],
     "niche_performance": {
         "Funeral service & cemetery": {
-            "used": 44,
-            "passed": 44
+            "used": 51,
+            "passed": 51
         }
     },
     "tips_learned": [
