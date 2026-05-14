@@ -3048,3 +3048,471 @@ Traceback (most recent call last):
   File "C:\Users\KHUZAIMA\Desktop\flow\tekscrum_pipeline.py", line 680, in call_gemini
     raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
 Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 05:35:05,380  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-14 05:35:05,382  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-14 05:35:10,572  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 05:35:18,074  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-14 05:35:28,142  INFO        PageSpeed: 8.3s score=83/100
+2026-05-14 05:35:28,145  INFO        Data gathered in 22.8s (parallel)
+2026-05-14 05:35:28,146  INFO        Country auto-detected: US
+2026-05-14 05:35:28,150  INFO        Calling Gemini... (learnings from 43 past leads)
+2026-05-14 05:35:30,439  INFO        Trying Key_1...
+2026-05-14 05:35:30,441  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 05:35:32,595  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 403 Forbidden"
+2026-05-14 05:35:32,596  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 403 permission_denied. {'error': {'code': 403, 'message': 'your api key was reported as leaked. please use another api k
+2026-05-14 05:35:32,596  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 05:35:33,969  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 05:35:33,970  WARNING     ❌ Key_1 gemini-2.0-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 05:35:33,971  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 05:35:33,971  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 05:35:33,971  INFO        Trying Key_2...
+2026-05-14 05:35:33,971  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 05:35:45,791  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-14 05:35:45,796  INFO        ✅ Success! Model: gemini-2.5-flash (Key_2)
+2026-05-14 05:35:45,802  INFO        Attempt 1: pain=unknown words=87 QC=PASSED
+2026-05-14 05:35:45,805  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-14 05:35:45,805  INFO        Total time: 40.4s
+2026-05-14 05:39:12,649  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-14 05:39:12,651  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-14 05:39:15,190  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 05:39:18,912  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-14 05:39:34,668  INFO        PageSpeed: 7.6s score=81/100
+2026-05-14 05:39:34,671  INFO        Data gathered in 22.0s (parallel)
+2026-05-14 05:39:34,676  INFO        Country auto-detected: US
+2026-05-14 05:39:34,677  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 05:39:36,973  INFO        Trying Key_1...
+2026-05-14 05:39:36,974  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 05:39:38,877  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 05:39:38,879  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 05:39:38,879  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 05:39:38,879  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 05:39:38,879  INFO        Trying Key_2...
+2026-05-14 05:39:38,879  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 05:39:39,843  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 05:39:39,844  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 05:39:39,844  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 05:39:39,844  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 05:39:39,844  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 05:39:59,973  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-14 05:39:59,975  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-14 05:40:01,348  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 05:40:06,039  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-14 05:40:21,340  INFO        PageSpeed: 8.2s score=82/100
+2026-05-14 05:40:21,351  INFO        Data gathered in 21.4s (parallel)
+2026-05-14 05:40:21,353  INFO        Country auto-detected: US
+2026-05-14 05:40:21,354  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 05:40:23,338  INFO        Trying Key_1...
+2026-05-14 05:40:23,338  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 05:40:25,518  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 403 Forbidden"
+2026-05-14 05:40:25,519  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 403 permission_denied. {'error': {'code': 403, 'message': 'your api key was reported as leaked. please use another api k
+2026-05-14 05:40:25,519  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 05:40:25,736  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 05:40:25,737  WARNING     ❌ Key_1 gemini-2.0-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 05:40:25,737  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 05:40:25,737  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 05:40:25,738  INFO        Trying Key_2...
+2026-05-14 05:40:25,738  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 05:40:26,714  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 05:40:26,715  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 05:40:26,716  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 05:40:26,716  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 05:40:26,716  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 05:41:02,567  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-14 05:41:02,572  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-14 05:41:03,955  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 05:41:08,116  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-14 05:41:21,840  INFO        PageSpeed: 9.3s score=69/100
+2026-05-14 05:41:21,844  INFO        Data gathered in 19.3s (parallel)
+2026-05-14 05:41:21,844  INFO        Country auto-detected: US
+2026-05-14 05:41:21,845  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 05:41:23,854  INFO        Trying Key_1...
+2026-05-14 05:41:23,855  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 05:41:24,849  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 05:41:24,851  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 05:41:24,851  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 05:41:24,851  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 05:41:24,852  INFO        Trying Key_2...
+2026-05-14 05:41:24,852  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 05:41:25,948  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 05:41:25,950  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 05:41:25,951  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 05:41:25,951  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 05:41:25,951  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 05:48:34,282  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-14 05:48:34,286  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-14 05:48:38,379  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 05:48:45,276  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-14 05:48:56,694  INFO        PageSpeed: 8.4s score=82/100
+2026-05-14 05:48:56,703  INFO        Data gathered in 22.4s (parallel)
+2026-05-14 05:48:56,712  INFO        Country auto-detected: US
+2026-05-14 05:48:56,714  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 05:49:05,475  INFO        Trying Key_1...
+2026-05-14 05:49:05,476  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 05:49:07,480  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 05:49:07,484  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 05:49:07,485  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 05:49:07,485  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 05:49:07,485  INFO        Trying Key_2...
+2026-05-14 05:49:07,485  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 05:49:08,451  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 05:49:08,454  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 05:49:08,454  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 05:49:08,454  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 05:49:08,454  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 05:51:07,539  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-14 05:51:07,555  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-14 05:51:10,177  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 05:51:20,311  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-14 05:51:37,956  INFO        PageSpeed: 8.3s score=83/100
+2026-05-14 05:51:37,962  INFO        Data gathered in 30.4s (parallel)
+2026-05-14 05:51:37,972  INFO        Country auto-detected: US
+2026-05-14 05:51:37,973  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 05:51:45,935  INFO        Trying Key_1...
+2026-05-14 05:51:45,936  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 05:51:47,699  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 05:51:47,700  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 05:51:47,700  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 05:51:47,700  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 05:51:47,700  INFO        Trying Key_2...
+2026-05-14 05:51:47,701  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 05:51:48,779  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 05:51:48,781  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 05:51:48,781  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 05:51:48,781  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 05:51:48,781  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 06:16:12,225  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-14 06:16:12,227  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-14 06:16:14,488  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 06:16:18,805  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-14 06:16:34,868  INFO        PageSpeed: 7.1s score=82/100
+2026-05-14 06:16:34,874  INFO        Data gathered in 22.6s (parallel)
+2026-05-14 06:16:34,876  INFO        Country auto-detected: US
+2026-05-14 06:16:34,878  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 06:16:40,380  INFO        Trying Key_1...
+2026-05-14 06:16:40,381  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:16:41,794  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:16:41,796  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:16:41,796  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 06:16:41,796  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 06:16:41,797  INFO        Trying Key_2...
+2026-05-14 06:16:41,797  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:16:42,795  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:16:42,796  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:16:42,796  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 06:16:42,797  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 06:16:42,797  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 06:17:05,638  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-14 06:17:05,640  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-14 06:17:06,924  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 06:17:07,310  INFO        PageSpeed: 7.1s score=82/100
+2026-05-14 06:17:11,469  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-14 06:17:11,474  INFO        Data gathered in 5.8s (parallel)
+2026-05-14 06:17:11,477  INFO        Country auto-detected: US
+2026-05-14 06:17:11,478  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 06:17:13,807  INFO        Trying Key_1...
+2026-05-14 06:17:13,808  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:17:15,519  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 403 Forbidden"
+2026-05-14 06:17:15,522  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 403 permission_denied. {'error': {'code': 403, 'message': 'your api key was reported as leaked. please use another api k
+2026-05-14 06:17:15,523  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:17:16,297  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:17:16,298  WARNING     ❌ Key_1 gemini-2.0-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:17:16,298  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 06:17:16,298  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 06:17:16,298  INFO        Trying Key_2...
+2026-05-14 06:17:16,299  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:17:17,395  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:17:17,396  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:17:17,396  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 06:17:17,396  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 06:17:17,396  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 06:17:24,825  INFO      ━━━ Processing: Lilleywhite Funeral Service,  ━━━
+2026-05-14 06:17:24,827  INFO        GMB Places search: Lilleywhite Funeral Service   US
+2026-05-14 06:17:25,942  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 06:17:33,797  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Home | Lilleywhite Funeral Services
+2026-05-14 06:17:47,537  INFO        PageSpeed: 16.2s score=70/100
+2026-05-14 06:17:47,540  INFO        Data gathered in 22.7s (parallel)
+2026-05-14 06:17:47,541  INFO        Country auto-detected: UK
+2026-05-14 06:17:47,542  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 06:17:50,115  INFO        Trying Key_1...
+2026-05-14 06:17:50,115  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:17:51,050  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:17:51,051  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:17:51,051  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 06:17:51,051  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 06:17:51,051  INFO        Trying Key_2...
+2026-05-14 06:17:51,051  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:17:52,016  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:17:52,017  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:17:52,018  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 06:17:52,018  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 06:17:52,018  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 06:18:00,973  INFO      ━━━ Processing: Kane funeral service - Middleton,  ━━━
+2026-05-14 06:18:00,975  INFO        GMB Places search: Kane funeral service - Middleton   US
+2026-05-14 06:18:02,150  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 06:18:21,147  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Home -
+2026-05-14 06:18:21,699  INFO        PageSpeed: unknowns score=unknown/100
+2026-05-14 06:18:21,704  INFO        Data gathered in 20.7s (parallel)
+2026-05-14 06:18:21,705  INFO        Country auto-detected: US
+2026-05-14 06:18:21,707  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 06:18:24,249  INFO        Trying Key_1...
+2026-05-14 06:18:24,249  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:18:25,373  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:18:25,374  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:18:25,375  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 06:18:25,375  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 06:18:25,375  INFO        Trying Key_2...
+2026-05-14 06:18:25,375  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:18:26,299  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:18:26,300  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:18:26,300  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 06:18:26,300  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 06:18:26,300  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 06:18:34,655  INFO      ━━━ Processing: Greater Manchester Funeral Service,  ━━━
+2026-05-14 06:18:34,656  INFO        GMB Places search: Greater Manchester Funeral Service   US
+2026-05-14 06:18:36,495  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 06:18:38,731  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Greater Manchester Funeral Service - Welcome
+2026-05-14 06:18:49,921  INFO        PageSpeed: 4.5s score=77/100
+2026-05-14 06:18:49,924  INFO        Data gathered in 15.3s (parallel)
+2026-05-14 06:18:49,925  INFO        Country auto-detected: US
+2026-05-14 06:18:49,926  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 06:18:52,571  INFO        Trying Key_1...
+2026-05-14 06:18:52,571  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:18:55,343  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:18:55,345  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:18:55,345  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 06:18:55,345  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 06:18:55,345  INFO        Trying Key_2...
+2026-05-14 06:18:55,345  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:18:56,787  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:18:56,788  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:18:56,788  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 06:18:56,788  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 06:18:56,788  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 06:19:04,950  INFO      ━━━ Processing: Kane funeral service - Wythenshawe branch,  ━━━
+2026-05-14 06:19:04,953  INFO        GMB Places search: Kane funeral service - Wythenshawe branch   US
+2026-05-14 06:19:06,126  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 06:19:09,457  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Home -
+2026-05-14 06:19:45,277  INFO        PageSpeed: 454.4s score=55/100
+2026-05-14 06:19:45,280  INFO        Data gathered in 40.3s (parallel)
+2026-05-14 06:19:45,281  INFO        Country auto-detected: US
+2026-05-14 06:19:45,282  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 06:19:47,512  INFO        Trying Key_1...
+2026-05-14 06:19:47,513  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:19:48,436  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:19:48,437  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:19:48,437  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 06:19:48,437  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 06:19:48,437  INFO        Trying Key_2...
+2026-05-14 06:19:48,437  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:19:50,493  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-14 06:19:50,496  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-14 06:19:52,497  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:19:53,294  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:19:53,297  WARNING     ❌ Key_2 gemini-2.5-flash attempt 2: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:19:53,297  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 06:19:53,297  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 06:19:53,297  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 06:20:01,980  INFO      ━━━ Processing: Middleton's Funeral Services,  ━━━
+2026-05-14 06:20:01,983  INFO        GMB Places search: Middleton's Funeral Services   US
+2026-05-14 06:20:04,288  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 06:20:21,835  INFO        PageSpeed: unknowns score=unknown/100
+2026-05-14 06:20:27,462  WARNING     Site: bad response — https://middletonsfunerals.com
+2026-05-14 06:20:27,463  INFO        Data gathered in 25.5s (parallel)
+2026-05-14 06:20:27,464  INFO        Country auto-detected: US
+2026-05-14 06:20:27,465  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 06:20:29,662  INFO        Trying Key_1...
+2026-05-14 06:20:29,663  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:20:30,588  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:20:30,589  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:20:30,589  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 06:20:30,589  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 06:20:30,589  INFO        Trying Key_2...
+2026-05-14 06:20:30,589  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:20:31,508  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:20:31,510  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:20:31,510  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 06:20:31,510  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 06:20:31,510  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 06:20:40,624  INFO      ━━━ Processing: Bridgewater Funeral Service Ltd,  ━━━
+2026-05-14 06:20:40,626  INFO        GMB Places search: Bridgewater Funeral Service Ltd   US
+2026-05-14 06:20:42,288  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 06:20:50,131  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Bridgewater Funeral Service | Funeral Director Wor
+2026-05-14 06:21:18,009  INFO        PageSpeed: 18.6s score=36/100
+2026-05-14 06:21:18,013  INFO        Data gathered in 37.4s (parallel)
+2026-05-14 06:21:18,013  INFO        Country auto-detected: UK
+2026-05-14 06:21:18,013  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 06:21:20,563  INFO        Trying Key_1...
+2026-05-14 06:21:20,563  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:21:21,500  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:21:21,502  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:21:21,502  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 06:21:21,502  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 06:21:21,503  INFO        Trying Key_2...
+2026-05-14 06:21:21,503  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:21:22,624  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:21:22,626  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:21:22,626  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 06:21:22,626  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 06:21:22,626  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 06:21:29,819  INFO      ━━━ Processing: Woodland Cemetery,  ━━━
+2026-05-14 06:21:29,821  INFO        GMB Places search: Woodland Cemetery   US
+2026-05-14 06:21:31,790  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 06:21:31,830  WARNING     Site: SSL error on https://woodlandcemetery.co.uk
+2026-05-14 06:21:45,750  INFO        PageSpeed: 7.4s score=50/100
+2026-05-14 06:21:45,752  INFO        Data gathered in 15.9s (parallel)
+2026-05-14 06:21:45,752  INFO        Country auto-detected: UK
+2026-05-14 06:21:45,753  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 06:21:48,582  INFO        Trying Key_1...
+2026-05-14 06:21:48,583  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:21:49,594  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:21:49,596  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:21:49,596  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 06:21:49,597  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 06:21:49,597  INFO        Trying Key_2...
+2026-05-14 06:21:49,597  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:21:50,555  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:21:50,556  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:21:50,556  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 06:21:50,556  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 06:21:50,557  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-14 06:21:57,348  INFO      ━━━ Processing: Christopher Terry Funeral Service LTD,  ━━━
+2026-05-14 06:21:57,350  INFO        GMB Places search: Christopher Terry Funeral Service LTD   US
+2026-05-14 06:21:58,514  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 06:22:00,171  INFO        Site: SSL=True Form=False Mobile=True Era=unknown Title=Christopher Terry Funeral Service - Eccles
+2026-05-14 06:22:10,009  INFO        PageSpeed: 1.8s score=97/100
+2026-05-14 06:22:10,012  INFO        Data gathered in 12.7s (parallel)
+2026-05-14 06:22:10,013  INFO        Country auto-detected: UK
+2026-05-14 06:22:10,013  INFO        Calling Gemini... (learnings from 44 past leads)
+2026-05-14 06:22:15,191  INFO        Trying Key_1...
+2026-05-14 06:22:15,191  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:22:15,564  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:22:15,566  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:22:15,566  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-14 06:22:15,566  WARNING     Key_1 exhausted. Trying next key...
+2026-05-14 06:22:15,566  INFO        Trying Key_2...
+2026-05-14 06:22:15,566  INFO      AFC is enabled with max remote calls: 10.
+2026-05-14 06:22:16,508  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-14 06:22:16,510  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-14 06:22:16,510  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-14 06:22:16,511  WARNING     Key_2 exhausted. Trying next key...
+2026-05-14 06:22:16,511  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
