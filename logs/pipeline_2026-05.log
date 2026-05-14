@@ -4000,3 +4000,5 @@ Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'err
 2026-05-14 08:15:17,303  INFO        Total time: 65.5s
 2026-05-14 08:15:38,750  INFO      ━━━ Processing: Greater Manchester Funeral Service,  ━━━
 2026-05-14 08:15:38,753  INFO        GMB Places search: Greater Manchester Funeral Service   US
+2026-05-14 08:15:40,865  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-14 08:15:42,699  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Greater Manchester Funeral Service - Welcome
