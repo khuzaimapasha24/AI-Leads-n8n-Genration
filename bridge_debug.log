@@ -1,0 +1,30 @@
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Jason Worsnip Family Funeral Service", "email_body": "Subject: noticed something on mobile\n\nHi,\n\nI was looking at the Jason Worsnip Family Funeral Service site this morning.\n\nYour site takes nearly 8 seconds to come up on a phone. That's usually long enough that people tend to move on before they even see what you offer.\n\nWe help funeral homes make sure their websites load quickly and families can find what they need easily.\n\nWould it be worth 15 minutes to chat about making that clearer for Jason Worsnip Family Funeral Service?\n\nCraig", "word_count": 85, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "38.9s", "leads_processed": 65, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "7.3", "mobile_score": "82", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "modern (2021+)", "page_title": "Jason Worsnip Family Funeral Service in Shaw, Oldham, Lancashire", "meta_description": "Jason Worsnip Family Funeral Service is a new family-run independant funeral directors in Shaw", "services_found": "none detected", "phone_on_site": "2545352419, 441706 8402", "address_on_site": "", "social_links": "facebook, x", "processed_at": "2026-05-15 01:03", "first_name": "", "business_name": "Jason Worsnip Family Funeral Service", "email": "zainulabideenbawa@gmail.com", "city": "", "state": "", "country": "US", "niche": "Funeral service & cemetery", "phone": "", "website": "jasonworsnip.com", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Lilleywhite Funeral Service ---
+Return Code: 0
+STDOUT:
+None
+STDERR:
+
+
+--- LEAD: Kane funeral service - Middleton ---
+Return Code: 0
+STDOUT:
+None
+STDERR:
+
+
+--- LEAD: Greater Manchester Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Greater Manchester Funeral Service", "email_body": "Subject: manchester site speed\n\nHi,\n\nI was looking at the Greater Manchester Funeral Service site this morning.\n\nIt takes around 4-5 seconds to come up on a phone. Long enough that people tend to move on before they have even seen what you offer.\n\nWe help funeral homes ensure their sites load quickly so families can get the information they need without delay.\n\nWould it be worth 15 minutes to chat about making that quicker for Greater Manchester Funeral Service?\n\nCraig", "word_count": 81, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "29.1s", "leads_processed": 68, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "4.5", "mobile_score": "78", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "unknown", "page_title": "Greater Manchester Funeral Service - Welcome", "meta_description": "What's new ,", "services_found": "none detected", "phone_on_site": "1730111544, 1730111599", "address_on_site": "", "social_links": "none found", "processed_at": "2026-05-15 01:06", "first_name": "", "business_name": "Greater Manchester Funeral Service", "email": "zain@tekscrum.com", "city": "", "state": "", "country": "US", "niche": "Funeral service & cemetery", "phone": "", "website": "https://www.greater-manchester-funeral-service.com/", "row_number": ""}
+
+STDERR:
+

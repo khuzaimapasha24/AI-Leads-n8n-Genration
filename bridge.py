@@ -40,6 +40,13 @@ class BridgeHandler(BaseHTTPRequestHandler):
 
                 if result.returncode != 0:
                     print(f"Script STDERR: {result.stderr[:500]}")
+                    
+                # DEBUG: Save exact output to file
+                with open("bridge_debug.log", "a", encoding="utf-8") as f:
+                    f.write(f"\n--- LEAD: {biz_name} ---\n")
+                    f.write(f"Return Code: {result.returncode}\n")
+                    f.write(f"STDOUT:\n{result.stdout}\n")
+                    f.write(f"STDERR:\n{result.stderr}\n")
 
                 # Find the JSON output (last line of stdout)
                 output_lines = result.stdout.strip().split("\n")
@@ -58,6 +65,10 @@ class BridgeHandler(BaseHTTPRequestHandler):
                 self.send_header("Content-Type", "application/json")
                 self.end_headers()
                 self.wfile.write(final_json.encode("utf-8"))
+                
+                print("Waiting 20 seconds before next lead to prevent Gemini API rate limit...")
+                import time
+                time.sleep(20)
 
             except Exception as e:
                 print(f"ERROR: {str(e)}")
