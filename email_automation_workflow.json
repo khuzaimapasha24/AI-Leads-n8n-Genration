@@ -315,7 +315,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://server.smartlead.ai/api/v1/campaigns/YOUR_CAMPAIGN_ID/leads",
+        "url": "https://server.smartlead.ai/api/v1/campaigns/3337343/leads",
         "sendQuery": true,
         "queryParameters": {
           "parameters": [
@@ -327,7 +327,7 @@
         },
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "={\n  \"lead_list\": [\n    {\n      \"email\": \"{{ $json.Email }}\",\n      \"first_name\": \"{{ $json['Company Name'].split(' ')[0] }}\",\n      \"last_name\": \"{{ $json['Company Name'].split(' ').slice(1).join(' ') }}\",\n      \"company_name\": \"{{ $json['Company Name'] }}\",\n      \"website\": \"{{ $json.Website }}\",\n      \"custom_fields\": {\n        \"issues\": \"{{ $json.Issues }}\",\n        \"email_body\": \"{{ $json['Email Body'] }}\"\n      }\n    }\n  ],\n  \"settings\": {\n    \"reuse_lead_from_campaign\": false,\n    \"ignore_global_block_list\": false,\n    \"ignore_unsubscribe_list\": false\n  }\n}",
+        "jsonBody": "={{ JSON.stringify({ lead_list: [{ email: $json.Email || '', first_name: ($json['Company Name'] || '').split(' ')[0], last_name: ($json['Company Name'] || '').split(' ').slice(1).join(' '), company_name: $json['Company Name'] || '', website: $json.Website || '', custom_fields: { issues: $json.Issues || '', email_body: $json['Email Body'] || '' } }], settings: { reuse_lead_from_campaign: false, ignore_global_block_list: false, ignore_unsubscribe_list: false } }) }}",
         "options": {
           "response": {
             "response": {
@@ -353,17 +353,17 @@
           "options": {
             "caseSensitive": true,
             "leftValue": "",
-            "typeValidation": "strict",
+            "typeValidation": "loose",
             "version": 1
           },
           "conditions": [
             {
               "id": "check-smartlead-ok",
-              "leftValue": "={{ $json.ok }}",
-              "rightValue": true,
+              "leftValue": "={{ $json.statusCode }}",
+              "rightValue": "={{ 200 }}",
               "operator": {
-                "type": "boolean",
-                "operation": "true"
+                "type": "number",
+                "operation": "equals"
               }
             }
           ],
