@@ -4903,7 +4903,13 @@ Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'err
 2026-05-15 04:30:47,403  INFO      AFC is enabled with max remote calls: 10.
 2026-05-15 04:30:47,832  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
 2026-05-15 04:30:47,832  WARNING     ❌ Key_3 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-15 04:30:47,833  WARNING     Key_3 credits exhausted, switching to next key...
 2026-05-15 04:30:47,833  WARNING     Key_3 exhausted. Trying next key...
+2026-05-15 04:30:47,833  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
     raw = call_gemini(user_msg)
   File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
     raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
@@ -5763,3 +5769,6 @@ Traceback (most recent call last):
   File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
     raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
 Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-15 08:13:13,754  INFO      ━━━ Processing: Kane funeral service - Middleton,  ━━━
+2026-05-15 08:13:13,758  INFO        GMB Places search: Kane funeral service - Middleton   US
+2026-05-15 08:13:14,825  INFO        GMB: not found (status=REQUEST_DENIED)
