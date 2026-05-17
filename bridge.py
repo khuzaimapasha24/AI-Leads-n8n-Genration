@@ -35,6 +35,7 @@ class BridgeHandler(BaseHTTPRequestHandler):
                     capture_output=True,
                     text=True,
                     encoding="utf-8",
+                    errors="replace",
                     cwd=os.path.dirname(os.path.abspath(__file__)),
                 )
 
@@ -49,7 +50,8 @@ class BridgeHandler(BaseHTTPRequestHandler):
                     f.write(f"STDERR:\n{result.stderr}\n")
 
                 # Find the JSON output (last line of stdout)
-                output_lines = result.stdout.strip().split("\n")
+                stdout_str = result.stdout if result.stdout else ""
+                output_lines = stdout_str.strip().split("\n")
                 final_json = "{}"
                 for line in reversed(output_lines):
                     line = line.strip()

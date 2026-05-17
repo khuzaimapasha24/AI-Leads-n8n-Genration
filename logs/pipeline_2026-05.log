@@ -5772,3 +5772,397 @@ Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'err
 2026-05-15 08:13:13,754  INFO      ━━━ Processing: Kane funeral service - Middleton,  ━━━
 2026-05-15 08:13:13,758  INFO        GMB Places search: Kane funeral service - Middleton   US
 2026-05-15 08:13:14,825  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 03:07:12,540  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-17 03:07:12,543  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-17 03:07:14,442  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 03:07:17,852  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-17 03:07:38,314  INFO        PageSpeed: 8.3s score=86/100
+2026-05-17 03:07:38,319  INFO        Data gathered in 25.8s (parallel)
+2026-05-17 03:07:38,321  INFO        Country auto-detected: US
+2026-05-17 03:07:38,322  INFO        Calling Gemini... (learnings from 74 past leads)
+2026-05-17 03:07:41,405  INFO        Trying Key_1...
+2026-05-17 03:07:41,405  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 03:07:51,783  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 03:07:51,787  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 03:07:51,802  INFO        Attempt 1: pain=unknown words=79 QC=PASSED
+2026-05-17 03:07:51,805  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 03:07:51,805  INFO        Total time: 39.3s
+2026-05-17 03:13:43,512  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-17 03:13:43,517  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-17 03:13:46,057  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 03:13:51,259  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-17 03:14:14,117  INFO        PageSpeed: 8.0s score=82/100
+2026-05-17 03:14:14,122  INFO        Data gathered in 30.6s (parallel)
+2026-05-17 03:14:14,124  INFO        Country auto-detected: US
+2026-05-17 03:14:14,153  INFO        Calling Gemini... (learnings from 75 past leads)
+2026-05-17 03:14:21,742  INFO        Trying Key_1...
+2026-05-17 03:14:21,744  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 03:14:28,055  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 03:14:28,058  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 03:14:28,074  INFO        Attempt 1: pain=unknown words=81 QC=PASSED
+2026-05-17 03:14:28,076  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 03:14:28,076  INFO        Total time: 44.6s
+2026-05-17 03:25:55,580  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-17 03:25:55,583  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-17 03:25:58,526  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 03:26:04,625  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-17 03:26:14,656  INFO        PageSpeed: 7.4s score=82/100
+2026-05-17 03:26:14,664  INFO        Data gathered in 19.1s (parallel)
+2026-05-17 03:26:14,666  INFO        Country auto-detected: US
+2026-05-17 03:26:14,695  INFO        Calling Gemini... (learnings from 76 past leads)
+2026-05-17 03:26:22,920  INFO        Trying Key_1...
+2026-05-17 03:26:22,921  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 03:26:30,340  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 03:26:30,346  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 03:26:30,365  INFO        Attempt 1: pain=unknown words=77 QC=PASSED
+2026-05-17 03:26:30,366  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 03:26:30,367  INFO        Total time: 34.8s
+2026-05-17 03:28:12,321  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-17 03:28:12,333  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-17 03:28:15,620  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 03:28:23,000  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-17 03:28:31,522  INFO        PageSpeed: 7.5s score=83/100
+2026-05-17 03:28:31,528  INFO        Data gathered in 19.2s (parallel)
+2026-05-17 03:28:31,531  INFO        Country auto-detected: US
+2026-05-17 03:28:31,566  INFO        Calling Gemini... (learnings from 77 past leads)
+2026-05-17 03:28:43,548  INFO        Trying Key_1...
+2026-05-17 03:28:43,550  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 03:28:52,871  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 03:28:52,878  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 03:28:52,897  INFO        Attempt 1: pain=unknown words=80 QC=PASSED
+2026-05-17 03:28:52,903  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 03:28:52,903  INFO        Total time: 40.6s
+2026-05-17 03:35:24,295  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-17 03:35:24,346  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-17 03:35:26,795  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 03:35:33,825  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-17 03:35:43,113  INFO        PageSpeed: 7.6s score=82/100
+2026-05-17 03:35:43,119  INFO        Data gathered in 18.8s (parallel)
+2026-05-17 03:35:43,121  INFO        Country auto-detected: US
+2026-05-17 03:35:43,157  INFO        Calling Gemini... (learnings from 78 past leads)
+2026-05-17 03:35:54,516  INFO        Trying Key_1...
+2026-05-17 03:35:54,516  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 03:36:02,740  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 03:36:02,743  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 03:36:02,764  INFO        Attempt 1: pain=unknown words=78 QC=PASSED
+2026-05-17 03:36:02,767  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 03:36:02,767  INFO        Total time: 38.5s
+2026-05-17 03:42:26,930  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-17 03:42:26,932  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-17 03:42:28,753  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 03:42:31,750  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-17 03:42:45,081  INFO        PageSpeed: 3.9s score=82/100
+2026-05-17 03:42:45,086  INFO        Data gathered in 18.2s (parallel)
+2026-05-17 03:42:45,088  INFO        Country auto-detected: US
+2026-05-17 03:42:45,098  INFO        Calling Gemini... (learnings from 79 past leads)
+2026-05-17 03:42:48,761  INFO        Trying Key_1...
+2026-05-17 03:42:48,762  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 03:42:57,758  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 03:42:57,761  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 03:42:57,772  INFO        Attempt 1: pain=unknown words=76 QC=PASSED
+2026-05-17 03:42:57,774  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 03:42:57,774  INFO        Total time: 30.8s
+2026-05-17 03:43:25,101  INFO      ━━━ Processing: Lilleywhite Funeral Service,  ━━━
+2026-05-17 03:43:25,103  INFO        GMB Places search: Lilleywhite Funeral Service   US
+2026-05-17 03:43:26,273  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 03:43:32,931  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Home | Lilleywhite Funeral Services
+2026-05-17 03:43:54,233  INFO        PageSpeed: 16.2s score=54/100
+2026-05-17 03:43:54,237  INFO        Data gathered in 29.1s (parallel)
+2026-05-17 03:43:54,237  INFO        Country auto-detected: UK
+2026-05-17 03:43:54,254  INFO        Calling Gemini... (learnings from 80 past leads)
+2026-05-17 03:43:57,983  INFO        Trying Key_1...
+2026-05-17 03:43:57,984  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 03:44:02,951  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 03:44:02,953  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 03:44:02,963  INFO        Attempt 1: pain=unknown words=79 QC=PASSED
+2026-05-17 03:44:02,965  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 03:44:02,965  INFO        Total time: 37.9s
+2026-05-17 03:58:15,729  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-17 03:58:15,730  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-17 03:58:16,967  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 03:58:21,239  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-17 03:58:34,631  INFO        PageSpeed: 3.8s score=83/100
+2026-05-17 03:58:34,639  INFO        Data gathered in 18.9s (parallel)
+2026-05-17 03:58:34,641  INFO        Country auto-detected: US
+2026-05-17 03:58:34,643  INFO        Calling Gemini... (learnings from 81 past leads)
+2026-05-17 03:58:37,388  INFO        Trying Key_1...
+2026-05-17 03:58:37,389  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 03:58:47,369  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 03:58:47,372  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 03:58:47,390  INFO        Attempt 1: pain=unknown words=84 QC=PASSED
+2026-05-17 03:58:47,396  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 03:58:47,396  INFO        Total time: 31.7s
+2026-05-17 03:59:13,719  INFO      ━━━ Processing: Lilleywhite Funeral Service,  ━━━
+2026-05-17 03:59:13,721  INFO        GMB Places search: Lilleywhite Funeral Service   US
+2026-05-17 03:59:14,861  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 03:59:21,355  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Home | Lilleywhite Funeral Services
+2026-05-17 03:59:39,648  INFO        PageSpeed: 16.0s score=60/100
+2026-05-17 03:59:39,653  INFO        Data gathered in 25.9s (parallel)
+2026-05-17 03:59:39,653  INFO        Country auto-detected: UK
+2026-05-17 03:59:39,671  INFO        Calling Gemini... (learnings from 82 past leads)
+2026-05-17 03:59:42,423  INFO        Trying Key_1...
+2026-05-17 03:59:42,424  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 03:59:50,636  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 03:59:50,641  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 03:59:50,668  INFO        Attempt 1: pain=unknown words=86 QC=PASSED
+2026-05-17 03:59:50,670  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 03:59:50,671  INFO        Total time: 37.0s
+2026-05-17 04:00:17,645  INFO      ━━━ Processing: Kane funeral service - Middleton,  ━━━
+2026-05-17 04:00:17,647  INFO        GMB Places search: Kane funeral service - Middleton   US
+2026-05-17 04:00:18,646  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 04:00:38,997  INFO        PageSpeed: unknowns score=unknown/100
+2026-05-17 04:00:42,948  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Home -
+2026-05-17 04:00:42,951  INFO        Data gathered in 25.3s (parallel)
+2026-05-17 04:00:42,952  INFO        Country auto-detected: US
+2026-05-17 04:00:42,964  INFO        Calling Gemini... (learnings from 83 past leads)
+2026-05-17 04:00:45,666  INFO        Trying Key_1...
+2026-05-17 04:00:45,666  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:00:52,456  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-17 04:00:52,459  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-17 04:00:54,460  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:01:03,702  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 04:01:03,705  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 04:01:03,706  INFO        Attempt 1: pain=unknown words=75 QC=PASSED
+2026-05-17 04:01:03,710  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 04:01:03,710  INFO        Total time: 46.1s
+2026-05-17 04:01:30,709  INFO      ━━━ Processing: Greater Manchester Funeral Service,  ━━━
+2026-05-17 04:01:30,711  INFO        GMB Places search: Greater Manchester Funeral Service   US
+2026-05-17 04:01:32,622  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 04:01:34,019  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Greater Manchester Funeral Service - Welcome
+2026-05-17 04:01:45,194  INFO        PageSpeed: 4.5s score=77/100
+2026-05-17 04:01:45,201  INFO        Data gathered in 14.5s (parallel)
+2026-05-17 04:01:45,205  INFO        Country auto-detected: US
+2026-05-17 04:01:45,223  INFO        Calling Gemini... (learnings from 84 past leads)
+2026-05-17 04:01:48,142  INFO        Trying Key_1...
+2026-05-17 04:01:48,143  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:01:54,713  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 04:01:54,717  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 04:01:54,743  INFO        Attempt 1: pain=unknown words=77 QC=PASSED
+2026-05-17 04:01:54,747  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 04:01:54,748  INFO        Total time: 24.0s
+2026-05-17 04:06:15,365  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-17 04:06:15,388  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-17 04:06:17,556  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 04:06:23,322  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-17 04:06:32,654  INFO        PageSpeed: 9.5s score=69/100
+2026-05-17 04:06:32,662  INFO        Data gathered in 17.3s (parallel)
+2026-05-17 04:06:32,664  INFO        Country auto-detected: US
+2026-05-17 04:06:32,694  INFO        Calling Gemini... (learnings from 85 past leads)
+2026-05-17 04:06:41,254  INFO        Trying Key_1...
+2026-05-17 04:06:41,255  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:06:49,052  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 04:06:49,055  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 04:06:49,068  INFO        Attempt 1: pain=unknown words=82 QC=PASSED
+2026-05-17 04:06:49,071  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 04:06:49,071  INFO        Total time: 33.7s
+2026-05-17 04:07:23,107  INFO      ━━━ Processing: Lilleywhite Funeral Service,  ━━━
+2026-05-17 04:07:23,142  INFO        GMB Places search: Lilleywhite Funeral Service   US
+2026-05-17 04:07:27,053  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 04:07:38,013  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Home | Lilleywhite Funeral Services
+2026-05-17 04:07:48,144  INFO        PageSpeed: 16.0s score=61/100
+2026-05-17 04:07:48,151  INFO        Data gathered in 25.0s (parallel)
+2026-05-17 04:07:48,151  INFO        Country auto-detected: UK
+2026-05-17 04:07:48,172  INFO        Calling Gemini... (learnings from 86 past leads)
+2026-05-17 04:07:57,333  INFO        Trying Key_1...
+2026-05-17 04:07:57,340  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:08:04,253  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 04:08:04,258  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 04:08:04,279  INFO        Attempt 1: pain=unknown words=86 QC=PASSED
+2026-05-17 04:08:04,282  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 04:08:04,283  INFO        Total time: 41.2s
+2026-05-17 04:08:41,564  INFO      ━━━ Processing: Kane funeral service - Middleton,  ━━━
+2026-05-17 04:08:41,568  INFO        GMB Places search: Kane funeral service - Middleton   US
+2026-05-17 04:08:42,850  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 04:09:03,401  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Home -
+2026-05-17 04:09:22,676  WARNING     PageSpeed error: HTTPSConnectionPool(host='www.googleapis.com', port=443): Read timed out. (read timeout=40)
+2026-05-17 04:09:22,677  INFO        Data gathered in 41.1s (parallel)
+2026-05-17 04:09:22,679  INFO        Country auto-detected: US
+2026-05-17 04:09:22,699  INFO        Calling Gemini... (learnings from 87 past leads)
+2026-05-17 04:09:32,270  INFO        Trying Key_1...
+2026-05-17 04:09:32,271  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:09:44,371  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 04:09:44,374  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 04:09:44,390  INFO        Attempt 1: pain=unknown words=84 QC=PASSED
+2026-05-17 04:09:44,392  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 04:09:44,392  INFO        Total time: 62.8s
+2026-05-17 04:10:20,003  INFO      ━━━ Processing: Greater Manchester Funeral Service,  ━━━
+2026-05-17 04:10:20,006  INFO        GMB Places search: Greater Manchester Funeral Service   US
+2026-05-17 04:10:22,797  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 04:10:25,813  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Greater Manchester Funeral Service - Welcome
+2026-05-17 04:10:38,375  INFO        PageSpeed: 4.5s score=77/100
+2026-05-17 04:10:38,386  INFO        Data gathered in 18.4s (parallel)
+2026-05-17 04:10:38,388  INFO        Country auto-detected: US
+2026-05-17 04:10:38,408  INFO        Calling Gemini... (learnings from 88 past leads)
+2026-05-17 04:10:49,213  INFO        Trying Key_1...
+2026-05-17 04:10:49,214  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:10:56,239  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 04:10:56,244  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 04:10:56,264  INFO        Attempt 1: pain=unknown words=82 QC=PASSED
+2026-05-17 04:10:56,269  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 04:10:56,270  INFO        Total time: 36.3s
+2026-05-17 04:25:33,800  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-17 04:25:33,802  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-17 04:25:33,953  WARNING     Site: bad response — https://jasonworsnip.com
+2026-05-17 04:25:34,818  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 04:25:52,699  INFO        PageSpeed: 3.9s score=82/100
+2026-05-17 04:25:52,708  INFO        Data gathered in 18.9s (parallel)
+2026-05-17 04:25:52,712  INFO        Country auto-detected: US
+2026-05-17 04:25:52,734  INFO        Calling Gemini... (learnings from 89 past leads)
+2026-05-17 04:25:55,624  INFO        Trying Key_1...
+2026-05-17 04:25:55,625  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:26:02,508  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 04:26:02,515  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 04:26:02,545  INFO        Attempt 1: pain=unknown words=81 QC=PASSED
+2026-05-17 04:26:02,547  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 04:26:02,548  INFO        Total time: 28.7s
+2026-05-17 04:26:28,974  INFO      ━━━ Processing: Lilleywhite Funeral Service,  ━━━
+2026-05-17 04:26:28,977  INFO        GMB Places search: Lilleywhite Funeral Service   US
+2026-05-17 04:26:30,112  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 04:26:36,822  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Home | Lilleywhite Funeral Services
+2026-05-17 04:26:51,531  INFO        PageSpeed: 16.0s score=60/100
+2026-05-17 04:26:51,537  INFO        Data gathered in 22.6s (parallel)
+2026-05-17 04:26:51,538  INFO        Country auto-detected: UK
+2026-05-17 04:26:51,549  INFO        Calling Gemini... (learnings from 90 past leads)
+2026-05-17 04:26:54,204  INFO        Trying Key_1...
+2026-05-17 04:26:54,204  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:27:01,022  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 04:27:01,030  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 04:27:01,051  INFO        Attempt 1: pain=unknown words=78 QC=PASSED
+2026-05-17 04:27:01,053  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 04:27:01,054  INFO        Total time: 32.1s
+2026-05-17 04:27:27,364  INFO      ━━━ Processing: Kane funeral service - Middleton,  ━━━
+2026-05-17 04:27:27,366  INFO        GMB Places search: Kane funeral service - Middleton   US
+2026-05-17 04:27:28,538  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 04:27:46,472  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Home -
+2026-05-17 04:27:46,926  INFO        PageSpeed: unknowns score=unknown/100
+2026-05-17 04:27:46,929  INFO        Data gathered in 19.6s (parallel)
+2026-05-17 04:27:46,931  INFO        Country auto-detected: US
+2026-05-17 04:27:46,947  INFO        Calling Gemini... (learnings from 91 past leads)
+2026-05-17 04:27:49,719  INFO        Trying Key_1...
+2026-05-17 04:27:49,719  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:28:07,368  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 04:28:07,372  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 04:28:07,390  INFO        Attempt 1: pain=unknown words=92 QC=PASSED
+2026-05-17 04:28:07,394  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 04:28:07,394  INFO        Total time: 40.0s
+2026-05-17 04:28:34,620  INFO      ━━━ Processing: Greater Manchester Funeral Service,  ━━━
+2026-05-17 04:28:34,622  INFO        GMB Places search: Greater Manchester Funeral Service   US
+2026-05-17 04:28:36,268  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 04:28:37,356  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Greater Manchester Funeral Service - Welcome
+2026-05-17 04:28:49,649  INFO        PageSpeed: 4.5s score=77/100
+2026-05-17 04:28:49,653  INFO        Data gathered in 15.0s (parallel)
+2026-05-17 04:28:49,655  INFO        Country auto-detected: US
+2026-05-17 04:28:49,675  INFO        Calling Gemini... (learnings from 92 past leads)
+2026-05-17 04:28:52,442  INFO        Trying Key_1...
+2026-05-17 04:28:52,443  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:28:58,332  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 04:28:58,334  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 04:28:58,340  INFO        Attempt 1: pain=unknown words=79 QC=PASSED
+2026-05-17 04:28:58,341  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 04:28:58,341  INFO        Total time: 23.7s
+2026-05-17 04:39:49,640  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-17 04:39:49,656  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-17 04:39:52,730  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 04:40:00,912  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-17 04:40:09,787  INFO        PageSpeed: 9.0s score=68/100
+2026-05-17 04:40:09,793  INFO        Data gathered in 20.2s (parallel)
+2026-05-17 04:40:09,798  INFO        Country auto-detected: US
+2026-05-17 04:40:09,826  INFO        Calling Gemini... (learnings from 93 past leads)
+2026-05-17 04:40:19,154  INFO        Trying Key_1...
+2026-05-17 04:40:19,156  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:40:19,942  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 04:40:19,945  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-17 04:40:19,946  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-17 04:40:19,946  WARNING     Key_1 exhausted. Trying next key...
+2026-05-17 04:40:19,946  INFO        Trying Key_2...
+2026-05-17 04:40:19,946  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:40:21,384  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 403 Forbidden"
+2026-05-17 04:40:21,386  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 403 permission_denied. {'error': {'code': 403, 'message': 'your api key was reported as leaked. please use another api k
+2026-05-17 04:40:21,387  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:40:21,605  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 04:40:21,606  WARNING     ❌ Key_2 gemini-2.0-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-17 04:40:21,607  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-17 04:40:21,607  WARNING     Key_2 exhausted. Trying next key...
+2026-05-17 04:40:21,607  INFO        Trying Key_3...
+2026-05-17 04:40:21,607  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:40:22,585  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 04:40:22,588  WARNING     ❌ Key_3 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-17 04:40:22,588  WARNING     Key_3 credits exhausted, switching to next key...
+2026-05-17 04:40:22,588  WARNING     Key_3 exhausted. Trying next key...
+2026-05-17 04:40:22,588  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-17 04:40:58,128  INFO      ━━━ Processing: Lilleywhite Funeral Service,  ━━━
+2026-05-17 04:40:58,142  INFO        GMB Places search: Lilleywhite Funeral Service   US
+2026-05-17 04:41:00,774  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 04:41:11,558  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Home | Lilleywhite Funeral Services
+2026-05-17 04:41:24,425  INFO        PageSpeed: 16.1s score=60/100
+2026-05-17 04:41:24,435  INFO        Data gathered in 26.3s (parallel)
+2026-05-17 04:41:24,435  INFO        Country auto-detected: UK
+2026-05-17 04:41:24,436  INFO        Calling Gemini... (learnings from 93 past leads)
+2026-05-17 04:41:34,687  INFO        Trying Key_1...
+2026-05-17 04:41:34,690  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:41:35,847  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 04:41:35,850  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-17 04:41:35,850  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-17 04:41:35,850  WARNING     Key_1 exhausted. Trying next key...
+2026-05-17 04:41:35,851  INFO        Trying Key_2...
+2026-05-17 04:41:35,852  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:41:37,063  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 403 Forbidden"
+2026-05-17 04:41:37,064  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 403 permission_denied. {'error': {'code': 403, 'message': 'your api key was reported as leaked. please use another api k
+2026-05-17 04:41:37,065  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:41:37,280  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 04:41:37,282  WARNING     ❌ Key_2 gemini-2.0-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-17 04:41:37,282  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-17 04:41:37,282  WARNING     Key_2 exhausted. Trying next key...
+2026-05-17 04:41:37,282  INFO        Trying Key_3...
+2026-05-17 04:41:37,283  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:41:39,514  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 04:41:39,517  WARNING     ❌ Key_3 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-17 04:41:39,517  WARNING     Key_3 credits exhausted, switching to next key...
+2026-05-17 04:41:39,517  WARNING     Key_3 exhausted. Trying next key...
+2026-05-17 04:41:39,518  ERROR       Pipeline error: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1128, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 739, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 683, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-05-17 04:42:15,632  INFO      ━━━ Processing: Kane funeral service - Middleton,  ━━━
+2026-05-17 04:42:15,662  INFO        GMB Places search: Kane funeral service - Middleton   US
+2026-05-17 04:42:18,746  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 04:42:23,334  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Home -
+2026-05-17 04:42:58,094  WARNING     PageSpeed error: HTTPSConnectionPool(host='www.googleapis.com', port=443): Read timed out. (read timeout=40)
+2026-05-17 04:42:58,095  INFO        Data gathered in 42.5s (parallel)
+2026-05-17 04:42:58,098  INFO        Country auto-detected: US
+2026-05-17 04:42:58,099  INFO        Calling Gemini... (learnings from 93 past leads)
+2026-05-17 04:43:06,634  INFO        Trying Key_1...
+2026-05-17 04:43:06,635  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:43:22,201  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 04:43:22,204  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 04:43:22,221  INFO        Attempt 1: pain=unknown words=79 QC=PASSED
+2026-05-17 04:43:22,230  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 04:43:22,230  INFO        Total time: 66.6s
+2026-05-17 04:43:57,802  INFO      ━━━ Processing: Greater Manchester Funeral Service,  ━━━
+2026-05-17 04:43:57,810  INFO        GMB Places search: Greater Manchester Funeral Service   US
+2026-05-17 04:44:00,512  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-17 04:44:03,876  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Greater Manchester Funeral Service - Welcome
+2026-05-17 04:44:14,670  INFO        PageSpeed: 4.5s score=77/100
+2026-05-17 04:44:14,680  INFO        Data gathered in 16.9s (parallel)
+2026-05-17 04:44:14,683  INFO        Country auto-detected: US
+2026-05-17 04:44:14,711  INFO        Calling Gemini... (learnings from 94 past leads)
+2026-05-17 04:44:23,444  INFO        Trying Key_1...
+2026-05-17 04:44:23,445  INFO      AFC is enabled with max remote calls: 10.
+2026-05-17 04:44:29,919  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 04:44:29,921  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-17 04:44:29,939  INFO        Attempt 1: pain=unknown words=78 QC=PASSED
+2026-05-17 04:44:29,947  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-17 04:44:29,948  INFO        Total time: 32.1s
