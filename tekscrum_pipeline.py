@@ -60,6 +60,11 @@ load_dotenv(Path(__file__).parent / ".env")
 GEMINI_API_KEY    = os.getenv("GEMINI_API_KEY", "")
 GEMINI_API_KEY_2  = os.getenv("GEMINI_API_KEY_2", "")
 GEMINI_API_KEY_3  = os.getenv("GEMINI_API_KEY_3", "")
+GEMINI_API_KEY_4  = os.getenv("GEMINI_API_KEY_4", "")
+GEMINI_API_KEY_5  = os.getenv("GEMINI_API_KEY_5", "")
+GEMINI_API_KEY_6  = os.getenv("GEMINI_API_KEY_6", "")
+GEMINI_API_KEY_7  = os.getenv("GEMINI_API_KEY_7", "")
+GEMINI_API_KEY_8  = os.getenv("GEMINI_API_KEY_8", "")
 PLACES_API_KEY    = os.getenv("PLACES_API_KEY", "")
 PAGESPEED_API_KEY = os.getenv("PAGESPEED_API_KEY", "")
 SENDER_NAME       = os.getenv("SENDER_NAME", "Alex")
@@ -621,6 +626,16 @@ def call_gemini(user_msg, attempts=3):
         clients_to_try.append(("Key_2", genai.Client(api_key=GEMINI_API_KEY_2)))
     if GEMINI_API_KEY_3:
         clients_to_try.append(("Key_3", genai.Client(api_key=GEMINI_API_KEY_3)))
+    if GEMINI_API_KEY_4:
+        clients_to_try.append(("Key_4", genai.Client(api_key=GEMINI_API_KEY_4)))
+    if GEMINI_API_KEY_5:
+        clients_to_try.append(("Key_5", genai.Client(api_key=GEMINI_API_KEY_5)))
+    if GEMINI_API_KEY_6:
+        clients_to_try.append(("Key_6", genai.Client(api_key=GEMINI_API_KEY_6)))
+    if GEMINI_API_KEY_7:
+        clients_to_try.append(("Key_7", genai.Client(api_key=GEMINI_API_KEY_7)))
+    if GEMINI_API_KEY_8:
+        clients_to_try.append(("Key_8", genai.Client(api_key=GEMINI_API_KEY_8)))
 
     if not clients_to_try:
         raise Exception("No GEMINI_API_KEY found in .env file!")

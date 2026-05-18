@@ -1,6 +1,9 @@
 import requests
+import os
+from dotenv import load_dotenv
 
-api_key = "4eb76153-4ebb-480c-9da7-60365dc52712_s5sidbr"
+load_dotenv()
+api_key = os.getenv("SMARTLEAD_API_KEY")
 url = f"https://server.smartlead.ai/api/v1/campaigns?api_key={api_key}"
 
 try:
