@@ -131,7 +131,7 @@
     {
       "parameters": {
         "mode": "runOnceForEachItem",
-        "jsCode": "// Parse result from local API bridge\nconst data = $json;\nreturn {\n  json: {\n    'Company Name': data.business_name || data['Company Name'] || '',\n    Email: data.email || data.Email || '',\n    Website: data.website || data.Website || '',\n    Issues: data.business_bio || data.issues || '',\n    'Email Body': data.email_body || '',\n    'First Email Sent': data.email_body ? 'PENDING' : 'ERROR',\n    'Processing Date': new Date().toISOString().split('T')[0]\n  }\n};"
+        "jsCode": "// Parse result from local API bridge\nconst data = $json;\nreturn {\n  json: {\n    'Company Name': data.business_name || data['Company Name'] || '',\n    Email: data.email || data.Email || '',\n    Website: data.website || data.Website || '',\n    Issues: data.business_bio || data.issues || '',\n    'Email Body': data.email_body || '',\n    Subject: data.email_subject || '',\n    'First Email Sent': data.email_body ? 'PENDING' : 'ERROR',\n    'Processing Date': new Date().toISOString().split('T')[0]\n  }\n};"
       },
       "id": "35c8f91e-5000-466b-a711-315ffc2abf17",
       "name": "Parse Python Output1",
@@ -194,6 +194,7 @@
           "value": {
             "Issues": "={{ $json.Issues }}",
             "Email Body": "={{ $json['Email Body'] }}",
+            "Subject": "={{ $json.Subject }}",
             "First Email Sent": "={{ $json['First Email Sent'] }}",
             "Processing Date": "={{ $json['Processing Date'] }}"
           },
@@ -301,14 +302,61 @@
     },
     {
       "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 1
+          },
+          "conditions": [
+            {
+              "id": "check-pending-exist",
+              "leftValue": "={{ $json.Email }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
         "options": {}
       },
       "id": "19398e19-6478-413d-b8f4-669657eed829",
-      "name": "Loop Each Pending Lead1",
+      "name": "Any Pending Left?1",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        -15600,
+        8768
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "d1a00001-0000-4000-8000-000000000001",
+      "name": "Smartlead Loop1",
       "type": "n8n-nodes-base.splitInBatches",
       "typeVersion": 3,
       "position": [
-        -15600,
+        -15376,
+        8768
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Format the current lead for SmartLead API\nconst lead = $json;\nreturn {\n  json: {\n    lead_list: [{\n      email: lead.Email || '',\n      first_name: (lead['Company Name'] || '').split(' ')[0],\n      last_name: (lead['Company Name'] || '').split(' ').slice(1).join(' '),\n      company_name: lead['Company Name'] || '',\n      website: lead.Website || '',\n      custom_fields: {\n        issues: lead.Issues || '',\n        email_body: lead['Email Body'] || ''\n      }\n    }],\n    _current_email: lead.Email || ''\n  }\n};"
+      },
+      "id": "aa000003-0000-0000-0000-000000000003",
+      "name": "Format Lead for Smartlead1",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -15152,
         8768
       ]
     },
@@ -327,7 +375,7 @@
         },
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "={{ JSON.stringify({ lead_list: [{ email: $json.Email || '', first_name: ($json['Company Name'] || '').split(' ')[0], last_name: ($json['Company Name'] || '').split(' ').slice(1).join(' '), company_name: $json['Company Name'] || '', website: $json.Website || '', custom_fields: { issues: $json.Issues || '', email_body: $json['Email Body'] || '' } }], settings: { reuse_lead_from_campaign: false, ignore_global_block_list: false, ignore_unsubscribe_list: false } }) }}",
+        "jsonBody": "={{ JSON.stringify({ lead_list: $json.lead_list }) }}",
         "options": {
           "response": {
             "response": {
@@ -343,7 +391,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        -15376,
+        -14928,
         8768
       ]
     },
@@ -360,10 +408,10 @@
             {
               "id": "check-smartlead-ok",
               "leftValue": "={{ $json.statusCode }}",
-              "rightValue": "={{ 200 }}",
+              "rightValue": "={{ 400 }}",
               "operator": {
                 "type": "number",
-                "operation": "equals"
+                "operation": "smaller"
               }
             }
           ],
@@ -376,8 +424,22 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2,
       "position": [
-        -15152,
+        -14704,
         8768
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Carry the email from Format node so Google Sheets can match the row\nreturn {\n  json: {\n    Email: $('Format Lead for Smartlead1').item.json._current_email\n  }\n};"
+      },
+      "id": "d2a00002-0000-4000-8000-000000000002",
+      "name": "Prepare Success Update1",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -14480,
+        8688
       ]
     },
     {
@@ -412,7 +474,7 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.2,
       "position": [
-        -14944,
+        -14256,
         8688
       ],
       "credentials": {
@@ -421,6 +483,20 @@
           "name": "Google Sheets account 3"
         }
       }
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Carry the email from Format node so Google Sheets can match the row\nreturn {\n  json: {\n    Email: $('Format Lead for Smartlead1').item.json._current_email\n  }\n};"
+      },
+      "id": "d3a00003-0000-4000-8000-000000000003",
+      "name": "Prepare Error Update1",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -14480,
+        8928
+      ]
     },
     {
       "parameters": {
@@ -453,8 +529,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.2,
       "position": [
-        -14944,
-        8848
+        -14256,
+        8928
       ],
       "credentials": {
         "googleApi": {
@@ -487,7 +563,7 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        -14720,
+        -14032,
         8768
       ]
     }
@@ -628,14 +704,32 @@
       "main": [
         [
           {
-            "node": "Loop Each Pending Lead1",
+            "node": "Any Pending Left?1",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Loop Each Pending Lead1": {
+    "Any Pending Left?1": {
+      "main": [
+        [
+          {
+            "node": "Smartlead Loop1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Workflow Finished Successfully",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Smartlead Loop1": {
       "main": [
         [
           {
@@ -644,6 +738,17 @@
             "index": 0
           }
         ],
+        [
+          {
+            "node": "Format Lead for Smartlead1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format Lead for Smartlead1": {
+      "main": [
         [
           {
             "node": "Add Lead to Smartlead Campaign1",
@@ -668,14 +773,25 @@
       "main": [
         [
           {
-            "node": "Mark as Sent in Sheet1",
+            "node": "Prepare Success Update1",
             "type": "main",
             "index": 0
           }
         ],
         [
           {
-            "node": "Log Smartlead Error1",
+            "node": "Prepare Error Update1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Success Update1": {
+      "main": [
+        [
+          {
+            "node": "Mark as Sent in Sheet1",
             "type": "main",
             "index": 0
           }
@@ -686,7 +802,18 @@
       "main": [
         [
           {
-            "node": "Loop Each Pending Lead1",
+            "node": "Smartlead Loop1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Error Update1": {
+      "main": [
+        [
+          {
+            "node": "Log Smartlead Error1",
             "type": "main",
             "index": 0
           }
@@ -697,7 +824,7 @@
       "main": [
         [
           {
-            "node": "Loop Each Pending Lead1",
+            "node": "Smartlead Loop1",
             "type": "main",
             "index": 0
           }

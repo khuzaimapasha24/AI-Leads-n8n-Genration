@@ -1242,3 +1242,307 @@ STDOUT:
 
 STDERR:
 
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "zainulabideenbawa@gmail.com", "business_name": "Jason Worsnip Family Funeral Service", "row_number": "", "processed_at": "2026-05-19 23:28"}
+
+STDERR:
+
+
+--- LEAD: Lilleywhite Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Lilleywhite Funeral Service", "email_body": "Hi,\n\nI spotted the Lilleywhite Funeral Service site earlier today.\n\nIt takes closer to 16 seconds to load on a phone. That's a bit of a wait for families trying to find information quickly.\n\nWe help funeral homes get their sites loading fast, so families don't have to wait when they need help.\n\nWould it be worth 15 minutes to chat about speeding things up for Lilleywhite Funeral Service?\n\nCraig", "word_count": 70, "pain_used": "unknown", "country_rule": "UK", "qc_status": "PASSED", "retry_count": 0, "processing_time": "42.4s", "leads_processed": 176, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "16.0", "mobile_score": "56", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "unknown", "page_title": "Home | Lilleywhite Funeral Services", "meta_description": "An Independent FamilyRun Funeral Service� est. 1897 Previous slide Next slide An Independent FamilyRun Funeral Service est. 1897 LILLEYWHITE FUNERAL SERVICE An Independent FamilyRun Funeral Service est. 1897 We understand how distressing the loss of a loved one can be, at Lilleywhite Funeral Service", "services_found": "CALL US | FIRST STEPS | CALL US | FIRST STEPS | CALL US | FIRST STEPS | You can reach us by phone 24 hours a day, 365 days a year | You can reach us by phone 24 hours a day, 365 days a year | CALL US | FIRST STEPS", "phone_on_site": "0000000000, 0000007735", "address_on_site": "", "social_links": "none found", "processed_at": "2026-05-19 23:29", "first_name": "", "business_name": "Lilleywhite Funeral Service", "email": "khuzaimapasha55@gmail.com", "city": "", "state": "", "country": "UK", "niche": "Funeral service & cemetery", "phone": "", "website": "lilleywhite-funerals.co.uk", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Kane funeral service - Middleton ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "zain@tekscrum.com", "business_name": "Kane funeral service - Middleton", "row_number": "", "processed_at": "2026-05-19 23:31"}
+
+STDERR:
+
+
+--- LEAD: Greater Manchester Funeral Service ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "khuzaimapasha24@gmail.com", "business_name": "Greater Manchester Funeral Service", "row_number": "", "processed_at": "2026-05-19 23:32"}
+
+STDERR:
+
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Jason Worsnip Family Funeral Service", "email_body": "Hi,\n\nI was looking at the Jason Worsnip Family Funeral Service site earlier.\n\nOn a phone, it takes closer to 7 seconds for the full page to load. That's long enough that many families tend to move on before they've seen what you offer.\n\nWe help funeral homes make sure their site is fast and responsive for families needing immediate support.\n\nWould it be worth 15 minutes to chat about speeding things up for Jason Worsnip Family Funeral Service?\n\nCraig", "word_count": 80, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "44.8s", "leads_processed": 177, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "7.4", "mobile_score": "82", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "modern (2021+)", "page_title": "Jason Worsnip Family Funeral Service in Shaw, Oldham, Lancashire", "meta_description": "Jason Worsnip Family Funeral Service is a new family-run independant funeral directors in Shaw", "services_found": "none detected", "phone_on_site": "2545352419, 441706 8402", "address_on_site": "", "social_links": "facebook, x", "processed_at": "2026-05-20 00:38", "first_name": "", "business_name": "Jason Worsnip Family Funeral Service", "email": "zainulabideenbawa@gmail.com", "city": "", "state": "", "country": "US", "niche": "Funeral service & cemetery", "phone": "", "website": "jasonworsnip.com", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Lilleywhite Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Lilleywhite Funeral Service", "email_body": "Hi,\n\nI was looking at the Lilleywhite Funeral Service site earlier.\n\nIt takes closer to 16 seconds for the site to fully load on a phone. That's long enough that families often move on before seeing what you offer.\n\nWe help funeral homes in the UK make sure their sites load quickly for families on mobile.\n\nWould it be worth 15 minutes to chat about speeding up the Lilleywhite Funeral Service site?\n\nCraig", "word_count": 73, "pain_used": "unknown", "country_rule": "UK", "qc_status": "PASSED", "retry_count": 0, "processing_time": "44.5s", "leads_processed": 178, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "16.1", "mobile_score": "51", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "unknown", "page_title": "Home | Lilleywhite Funeral Services", "meta_description": "An Independent FamilyRun Funeral Service� est. 1897 Previous slide Next slide An Independent FamilyRun Funeral Service est. 1897 LILLEYWHITE FUNERAL SERVICE An Independent FamilyRun Funeral Service est. 1897 We understand how distressing the loss of a loved one can be, at Lilleywhite Funeral Service", "services_found": "CALL US | FIRST STEPS | CALL US | FIRST STEPS | CALL US | FIRST STEPS | You can reach us by phone 24 hours a day, 365 days a year | You can reach us by phone 24 hours a day, 365 days a year | CALL US | FIRST STEPS", "phone_on_site": "0000000000, 0000007735", "address_on_site": "", "social_links": "none found", "processed_at": "2026-05-20 00:39", "first_name": "", "business_name": "Lilleywhite Funeral Service", "email": "khuzaimapasha55@gmail.com", "city": "", "state": "", "country": "UK", "niche": "Funeral service & cemetery", "phone": "", "website": "lilleywhite-funerals.co.uk", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Kane funeral service - Middleton ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Kane funeral service - Middleton", "email_body": "Hi,\n\nI was looking at the Kane funeral service site earlier.\n\nI noticed the site mentions 'Only�1250' and branches in Newton Heath and Salford. For a US business, that might be confusing for families looking for local services.\n\nWe help US funeral homes ensure their online presence clearly speaks to their local community.\n\nWould it be worth a quick chat about getting that clear for Kane funeral service - Middleton?\n\nCraig", "word_count": 71, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "59.2s", "leads_processed": 179, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "unknown", "mobile_score": "unknown", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "modern (2021+)", "page_title": "Home -", "meta_description": "", "services_found": "A WinningBusiness | Experiencethe Difference | Direct toCrematorium | What'sIncluded | Only�1250 | HomeVisit's | RecentObituaries | EcoFuneral | LatestNews | ContactUs", "phone_on_site": "1743174953, 161 669 0632", "address_on_site": "", "social_links": "facebook", "processed_at": "2026-05-20 00:41", "first_name": "", "business_name": "Kane funeral service - Middleton", "email": "zain@tekscrum.com", "city": "", "state": "", "country": "US", "niche": "", "phone": "", "website": "https://kanefuneralservices.com/", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Greater Manchester Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Greater Manchester Funeral Service", "email_body": "Hi,\n\nI spotted the Greater Manchester Funeral Service site earlier today.\n\nIt looks like the site takes just over 4 seconds to load on a phone. That's long enough that families often move on before seeing your services.\n\nWe help funeral homes ensure their online presence is immediate and easy for families to access.\n\nWould it be worth 15 minutes to chat about speeding that up for Greater Manchester Funeral Service?\n\nCraig", "word_count": 72, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "31.7s", "leads_processed": 180, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "4.5", "mobile_score": "76", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "unknown", "page_title": "Greater Manchester Funeral Service - Welcome", "meta_description": "What's new ,", "services_found": "none detected", "phone_on_site": "1730111544, 1730111599", "address_on_site": "", "social_links": "none found", "processed_at": "2026-05-20 00:42", "first_name": "", "business_name": "Greater Manchester Funeral Service", "email": "khuzaimapasha24@gmail.com", "city": "", "state": "", "country": "US", "niche": "", "phone": "", "website": "https://www.greater-manchester-funeral-service.com/", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Jason Worsnip Family Funeral Service", "email_body": "Hi,\n\nI spotted the Jason Worsnip Family Funeral Service site earlier today.\n\nIt looks like families visiting the site have to scroll a bit to find how to get in touch.\n\nWe help funeral homes make sure that first step is clear and easy for families.\n\nWould it be worth 15 minutes to chat about making that clearer for Jason Worsnip Family Funeral Service?\n\nCraig", "word_count": 65, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "40.6s", "leads_processed": 181, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "3.9", "mobile_score": "82", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "modern (2021+)", "page_title": "Jason Worsnip Family Funeral Service in Shaw, Oldham, Lancashire", "meta_description": "Jason Worsnip Family Funeral Service is a new family-run independant funeral directors in Shaw", "services_found": "none detected", "phone_on_site": "2545352419, 441706 8402", "address_on_site": "", "social_links": "facebook, x", "processed_at": "2026-05-20 01:17", "first_name": "", "business_name": "Jason Worsnip Family Funeral Service", "email": "zainulabideenbawa@gmail.com", "city": "", "state": "", "country": "US", "niche": "Funeral service & cemetery", "phone": "", "website": "jasonworsnip.com", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Lilleywhite Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Lilleywhite Funeral Service", "email_body": "Hi,\n\nI was looking at the Lilleywhite Funeral Service site earlier.\n\nIt looks like it takes just over 5 seconds for the site to load up on a phone. That's long enough that most people tend to move on before they've seen what you offer.\n\nWe help funeral homes like yours make sure families can access information quickly and easily, especially on mobile.\n\nWould it be worth 15 minutes to see if we could make that clearer for Lilleywhite Funeral Service?\n\nCraig", "word_count": 82, "pain_used": "unknown", "country_rule": "UK", "qc_status": "PASSED", "retry_count": 0, "processing_time": "34.8s", "leads_processed": 182, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "5.1", "mobile_score": "67", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "unknown", "page_title": "Home | Lilleywhite Funeral Services", "meta_description": "An Independent FamilyRun Funeral Service� est. 1897 Previous slide Next slide An Independent FamilyRun Funeral Service est. 1897 LILLEYWHITE FUNERAL SERVICE An Independent FamilyRun Funeral Service est. 1897 We understand how distressing the loss of a loved one can be, at Lilleywhite Funeral Service", "services_found": "CALL US | FIRST STEPS | CALL US | FIRST STEPS | CALL US | FIRST STEPS | You can reach us by phone 24 hours a day, 365 days a year | You can reach us by phone 24 hours a day, 365 days a year | CALL US | FIRST STEPS", "phone_on_site": "0000000000, 0000007735", "address_on_site": "", "social_links": "none found", "processed_at": "2026-05-20 01:18", "first_name": "", "business_name": "Lilleywhite Funeral Service", "email": "khuzaimapasha55@gmail.com", "city": "", "state": "", "country": "UK", "niche": "Funeral service & cemetery", "phone": "", "website": "lilleywhite-funerals.co.uk", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Jason Worsnip Family Funeral Service", "email_body": "Hi,\n\nI was looking at the Jason Worsnip Family Funeral Service site this morning.\n\nOn a phone, it takes just over 4 seconds to fully load. That's usually long enough for people to move on before they've even seen what you offer.\n\nWe help funeral homes ensure their sites are quick and easy for families to use, especially on mobile.\n\nWould it be worth 15 minutes to chat about shaving some time off that for Jason Worsnip Family Funeral Service?\n\nCraig", "word_count": 81, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "42.2s", "leads_processed": 183, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "4.2", "mobile_score": "80", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "modern (2021+)", "page_title": "Jason Worsnip Family Funeral Service in Shaw, Oldham, Lancashire", "meta_description": "Jason Worsnip Family Funeral Service is a new family-run independant funeral directors in Shaw", "services_found": "none detected", "phone_on_site": "2545352419, 441706 8402", "address_on_site": "", "social_links": "facebook, x", "processed_at": "2026-05-20 01:22", "first_name": "", "business_name": "Jason Worsnip Family Funeral Service", "email": "zainulabideenbawa@gmail.com", "city": "", "state": "", "country": "US", "niche": "Funeral service & cemetery", "phone": "", "website": "jasonworsnip.com", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Lilleywhite Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Lilleywhite Funeral Service", "email_body": "Hi,\n\nI was looking at the Lilleywhite Funeral Service site earlier today.\n\nOn a phone, it takes closer to 16 seconds for the site to come up. That's usually long enough for people to move on before seeing what you offer.\n\nWe help UK funeral homes make sure their websites are quick and easy for families to use when they need them most.\n\nWould it be worth 15 minutes to chat about making that first step clearer for Lilleywhite Funeral Service?\n\nCraig", "word_count": 82, "pain_used": "unknown", "country_rule": "UK", "qc_status": "PASSED", "retry_count": 0, "processing_time": "43.9s", "leads_processed": 184, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "16.0", "mobile_score": "60", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "unknown", "page_title": "Home | Lilleywhite Funeral Services", "meta_description": "An Independent FamilyRun Funeral Service� est. 1897 Previous slide Next slide An Independent FamilyRun Funeral Service est. 1897 LILLEYWHITE FUNERAL SERVICE An Independent FamilyRun Funeral Service est. 1897 We understand how distressing the loss of a loved one can be, at Lilleywhite Funeral Service", "services_found": "CALL US | FIRST STEPS | CALL US | FIRST STEPS | CALL US | FIRST STEPS | You can reach us by phone 24 hours a day, 365 days a year | You can reach us by phone 24 hours a day, 365 days a year | CALL US | FIRST STEPS", "phone_on_site": "0000000000, 0000007735", "address_on_site": "", "social_links": "none found", "processed_at": "2026-05-20 01:23", "first_name": "", "business_name": "Lilleywhite Funeral Service", "email": "khuzaimapasha55@gmail.com", "city": "", "state": "", "country": "UK", "niche": "Funeral service & cemetery", "phone": "", "website": "lilleywhite-funerals.co.uk", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Kane funeral service - Middleton ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Kane funeral service - Middleton", "email_body": "Hi,\n\nI was looking at the Kane funeral service - Middleton site earlier today.\n\nIt looks like the site takes over seven minutes to load on a phone. That's long enough that most people would have moved on.\n\nWe help funeral homes make sure their site is fast and ready for families on mobile.\n\nWould it be worth 15 minutes to chat about making that quicker for Kane funeral service - Middleton?\n\nCraig", "word_count": 73, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "56.9s", "leads_processed": 185, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "454.4", "mobile_score": "55", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "modern (2021+)", "page_title": "Home -", "meta_description": "", "services_found": "A WinningBusiness | Experiencethe Difference | Direct toCrematorium | What'sIncluded | Only�1250 | HomeVisit's | RecentObituaries | EcoFuneral | LatestNews | ContactUs", "phone_on_site": "1743174953, 161 669 0632", "address_on_site": "", "social_links": "facebook", "processed_at": "2026-05-20 01:25", "first_name": "", "business_name": "Kane funeral service - Middleton", "email": "zain@tekscrum.com", "city": "", "state": "", "country": "US", "niche": "", "phone": "", "website": "https://kanefuneralservices.com/", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Greater Manchester Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Greater Manchester Funeral Service", "email_body": "Hi,\n\nI was looking at the Greater Manchester Funeral Service site today.\n\nOn a phone, it takes just over 4 seconds for everything to load. That's usually long enough for people to move on before they've even seen what you offer.\n\nWe help funeral homes ensure their site loads quickly and smoothly for families looking for information.\n\nWould it be worth a quick 10-15 minutes to see how we could make that better for Greater Manchester Funeral Service?\n\nCraig", "word_count": 79, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "30.5s", "leads_processed": 186, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "4.5", "mobile_score": "77", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "unknown", "page_title": "Greater Manchester Funeral Service - Welcome", "meta_description": "What's new ,", "services_found": "none detected", "phone_on_site": "1730111544, 1730111599", "address_on_site": "", "social_links": "none found", "processed_at": "2026-05-20 01:26", "first_name": "", "business_name": "Greater Manchester Funeral Service", "email": "khuzaimapasha24@gmail.com", "city": "", "state": "", "country": "US", "niche": "", "phone": "", "website": "https://www.greater-manchester-funeral-service.com/", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Jason Worsnip Family Funeral Service", "email_body": "Hi,\n\nI was looking at the Jason Worsnip Family Funeral Service site this morning.\n\nOn a phone, it takes nearly 8 seconds to come up. That's long enough for some people to move on before they've seen your services.\n\nWe help funeral homes ensure their sites load quickly for families looking for support.\n\nWould it be worth 15 minutes to chat about how that could look for Jason Worsnip Family Funeral Service?\n\nCraig", "word_count": 73, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "42.6s", "leads_processed": 187, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "7.4", "mobile_score": "82", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "modern (2021+)", "page_title": "Jason Worsnip Family Funeral Service in Shaw, Oldham, Lancashire", "meta_description": "Jason Worsnip Family Funeral Service is a new family-run independant funeral directors in Shaw", "services_found": "none detected", "phone_on_site": "2545352419, 441706 8402", "address_on_site": "", "social_links": "facebook, x", "processed_at": "2026-05-20 01:53", "first_name": "", "business_name": "Jason Worsnip Family Funeral Service", "email": "zainulabideenbawa@gmail.com", "city": "", "state": "", "country": "US", "niche": "Funeral service & cemetery", "phone": "", "website": "jasonworsnip.com", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Lilleywhite Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Lilleywhite Funeral Service", "email_body": "Hi,\n\nI noticed the Lilleywhite Funeral Service site earlier today.\n\nIt looks like the site takes around 16 seconds to come up on a phone. That's long enough that families often move on before they've even seen what you offer.\n\nWe help funeral homes make sure their websites are fast and easy to use for families.\n\nWould it be worth 15 minutes to chat about getting Lilleywhite Funeral Service loading faster?\n\nCraig", "word_count": 72, "pain_used": "unknown", "country_rule": "UK", "qc_status": "PASSED", "retry_count": 0, "processing_time": "38.8s", "leads_processed": 188, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "16.0", "mobile_score": "61", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "unknown", "page_title": "Home | Lilleywhite Funeral Services", "meta_description": "An Independent FamilyRun Funeral Service� est. 1897 Previous slide Next slide An Independent FamilyRun Funeral Service est. 1897 LILLEYWHITE FUNERAL SERVICE An Independent FamilyRun Funeral Service est. 1897 We understand how distressing the loss of a loved one can be, at Lilleywhite Funeral Service", "services_found": "CALL US | FIRST STEPS | CALL US | FIRST STEPS | CALL US | FIRST STEPS | You can reach us by phone 24 hours a day, 365 days a year | You can reach us by phone 24 hours a day, 365 days a year | CALL US | FIRST STEPS", "phone_on_site": "0000000000, 0000007735", "address_on_site": "", "social_links": "none found", "processed_at": "2026-05-20 01:54", "first_name": "", "business_name": "Lilleywhite Funeral Service", "email": "khuzaimapasha55@gmail.com", "city": "", "state": "", "country": "UK", "niche": "Funeral service & cemetery", "phone": "", "website": "lilleywhite-funerals.co.uk", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Kane funeral service - Middleton ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Kane funeral service - Middleton", "email_body": "Hi,\n\nI spotted the Kane funeral service - Middleton site earlier today.\n\nIt looks like the site mentions 'Only �1250' under 'What's Included'. For a US business, that sterling symbol might be a little confusing for families looking at options.\n\nWe help funeral homes make sure all the details on their site are clear and reassuring for families.\n\nWould it be worth 15 minutes to chat about making sure everything is clear for Kane funeral service - Middleton?\n\nCraig", "word_count": 79, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "39.2s", "leads_processed": 189, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "unknown", "mobile_score": "unknown", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "modern (2021+)", "page_title": "Home -", "meta_description": "", "services_found": "A WinningBusiness | Experiencethe Difference | Direct toCrematorium | What'sIncluded | Only�1250 | HomeVisit's | RecentObituaries | EcoFuneral | LatestNews | ContactUs", "phone_on_site": "1743174953, 161 669 0632", "address_on_site": "", "social_links": "facebook", "processed_at": "2026-05-20 01:55", "first_name": "", "business_name": "Kane funeral service - Middleton", "email": "zain@tekscrum.com", "city": "", "state": "", "country": "US", "niche": "Funeral service & cemetery", "phone": "", "website": "https://kanefuneralservices.com/", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Greater Manchester Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Greater Manchester Funeral Service", "email_body": "Hi,\n\nI was looking at the Greater Manchester Funeral Service site earlier today.\n\nYour site takes just over 4 seconds to come up on a phone. That's often long enough for someone to move on before they've even seen what you offer.\n\nWe help funeral homes make sure their online presence is smooth and reliable for families.\n\nWould it be worth 15 minutes to chat about making that quicker for Greater Manchester Funeral Service?\n\nCraig", "word_count": 75, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "34.2s", "leads_processed": 190, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "4.5", "mobile_score": "77", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "unknown", "page_title": "Greater Manchester Funeral Service - Welcome", "meta_description": "What's new ,", "services_found": "none detected", "phone_on_site": "1730111544, 1730111599", "address_on_site": "", "social_links": "none found", "processed_at": "2026-05-20 01:56", "first_name": "", "business_name": "Greater Manchester Funeral Service", "email": "khuzaimapasha24@gmail.com", "city": "", "state": "", "country": "US", "niche": "Funeral service & cemetery", "phone": "", "website": "https://www.greater-manchester-funeral-service.com/", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Jason Worsnip Family Funeral Service", "email_body": "Hi,\n\nI spotted the Jason Worsnip Family Funeral Service site earlier today.\n\nIt looks like the site takes closer to 6 seconds to come up on a phone. That's long enough for some families to move on before seeing what you offer.\n\nWe help funeral homes ensure their websites load quickly for families on the go.\n\nWould it be worth 15 minutes to chat about making that quicker for Jason Worsnip Family Funeral Service?\n\nCraig", "word_count": 75, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "38.3s", "leads_processed": 191, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "5.8", "mobile_score": "82", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "modern (2021+)", "page_title": "Jason Worsnip Family Funeral Service in Shaw, Oldham, Lancashire", "meta_description": "Jason Worsnip Family Funeral Service is a new family-run independant funeral directors in Shaw", "services_found": "none detected", "phone_on_site": "2545352419, 441706 8402", "address_on_site": "", "social_links": "facebook, x", "processed_at": "2026-05-20 03:51", "first_name": "", "business_name": "Jason Worsnip Family Funeral Service", "email": "zainulabideenbawa@gmail.com", "city": "", "state": "", "country": "US", "niche": "Funeral service & cemetery", "phone": "", "website": "jasonworsnip.com", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Lilleywhite Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Lilleywhite Funeral Service", "email_body": "Hi,\n\nI was looking at the Lilleywhite Funeral Service site earlier.\n\nIt takes well over 15 seconds to come up on a phone. That's long enough that most people tend to move on before they see what you offer.\n\nWe help funeral homes ensure families can get the information they need quickly, especially on mobile.\n\nWould it be worth 15 minutes to chat about making that smoother for Lilleywhite Funeral Service?\n\nCraig", "word_count": 72, "pain_used": "unknown", "country_rule": "UK", "qc_status": "PASSED", "retry_count": 0, "processing_time": "46.0s", "leads_processed": 192, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "16.0", "mobile_score": "62", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "unknown", "page_title": "Home | Lilleywhite Funeral Services", "meta_description": "An Independent FamilyRun Funeral Service� est. 1897 Previous slide Next slide An Independent FamilyRun Funeral Service est. 1897 LILLEYWHITE FUNERAL SERVICE An Independent FamilyRun Funeral Service est. 1897 We understand how distressing the loss of a loved one can be, at Lilleywhite Funeral Service", "services_found": "CALL US | FIRST STEPS | CALL US | FIRST STEPS | CALL US | FIRST STEPS | You can reach us by phone 24 hours a day, 365 days a year | You can reach us by phone 24 hours a day, 365 days a year | CALL US | FIRST STEPS", "phone_on_site": "0000000000, 0000007735", "address_on_site": "", "social_links": "none found", "processed_at": "2026-05-20 03:52", "first_name": "", "business_name": "Lilleywhite Funeral Service", "email": "khuzaimapasha55@gmail.com", "city": "", "state": "", "country": "UK", "niche": "Funeral service & cemetery", "phone": "", "website": "lilleywhite-funerals.co.uk", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Kane funeral service - Middleton ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Kane funeral service - Middleton", "email_body": "Hi there,\n\nI was looking at the Kane funeral service - Middleton site earlier today.\n\nIt looks like the pricing on the site is in pounds, and the phone numbers are UK numbers. That could be confusing for families in Middleton.\n\nWe help funeral homes make sure their site is clear and accurate for local families.\n\nWould it be worth 15 minutes to chat about making the Kane funeral service - Middleton site clearer for your US families?\n\nCraig", "word_count": 79, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "58.8s", "leads_processed": 193, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "unknown", "mobile_score": "unknown", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "modern (2021+)", "page_title": "Home -", "meta_description": "", "services_found": "A WinningBusiness | Experiencethe Difference | Direct toCrematorium | What'sIncluded | Only�1250 | HomeVisit's | RecentObituaries | EcoFuneral | LatestNews | ContactUs", "phone_on_site": "1743174953, 161 669 0632", "address_on_site": "", "social_links": "facebook", "processed_at": "2026-05-20 03:54", "first_name": "", "business_name": "Kane funeral service - Middleton", "email": "zain@tekscrum.com", "city": "", "state": "", "country": "US", "niche": "Funeral service & cemetery", "phone": "", "website": "https://kanefuneralservices.com/", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Greater Manchester Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Greater Manchester Funeral Service", "email_body": "Hi,\n\nI was looking at the Greater Manchester Funeral Service site today.\n\nIt takes around 4-5 seconds to come up on a phone. That's usually long enough for people to move on before they've even seen what you offer.\n\nWe help funeral homes make sure families can connect quickly when they need to.\n\nWould it be worth 15 minutes to chat about making that first step easier for Greater Manchester Funeral Service?\n\nCraig", "word_count": 73, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "30.3s", "leads_processed": 194, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "4.5", "mobile_score": "76", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "unknown", "page_title": "Greater Manchester Funeral Service - Welcome", "meta_description": "What's new ,", "services_found": "none detected", "phone_on_site": "1730111544, 1730111599", "address_on_site": "", "social_links": "none found", "processed_at": "2026-05-20 03:54", "first_name": "", "business_name": "Greater Manchester Funeral Service", "email": "khuzaimapasha24@gmail.com", "city": "", "state": "", "country": "US", "niche": "Funeral service & cemetery", "phone": "", "website": "https://www.greater-manchester-funeral-service.com/", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Jason Worsnip Family Funeral Service", "email_body": "Hi,\n\nI was looking at the Jason Worsnip Family Funeral Service site earlier today.\n\nIt looks like it takes nearly 8 seconds to come up on a phone. That's long enough that families often move on before seeing your services.\n\nWe help local funeral homes make sure their online presence is responsive for families.\n\nWould it be worth 15 minutes to quickly discuss options for Jason Worsnip Family Funeral Service?\n\nCraig", "word_count": 71, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "41.5s", "leads_processed": 195, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "7.4", "mobile_score": "82", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "modern (2021+)", "page_title": "Jason Worsnip Family Funeral Service in Shaw, Oldham, Lancashire", "meta_description": "Jason Worsnip Family Funeral Service is a new family-run independant funeral directors in Shaw", "services_found": "none detected", "phone_on_site": "2545352419, 441706 8402", "address_on_site": "", "social_links": "facebook, x", "processed_at": "2026-05-20 04:10", "first_name": "", "business_name": "Jason Worsnip Family Funeral Service", "email": "zainulabideenbawa@gmail.com", "city": "", "state": "", "country": "US", "niche": "Funeral service & cemetery", "phone": "", "website": "jasonworsnip.com", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Lilleywhite Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Lilleywhite Funeral Service", "email_body": "Hi,\n\nI saw the Lilleywhite Funeral Service site earlier today.\n\nIt looks like families visiting the site have to scroll a bit to find the main contact number and how to take a first step.\n\nWe help funeral homes make sure that initial connection is really clear and easy for families.\n\nWould it be worth 10-15 minutes to chat about making that clearer for Lilleywhite Funeral Service?\n\nCraig", "word_count": 68, "pain_used": "unknown", "country_rule": "UK", "qc_status": "PASSED", "retry_count": 0, "processing_time": "85.9s", "leads_processed": 196, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "unknown", "mobile_score": "unknown", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "unknown", "page_title": "Home | Lilleywhite Funeral Services", "meta_description": "An Independent FamilyRun Funeral Service� est. 1897 Previous slide Next slide An Independent FamilyRun Funeral Service est. 1897 LILLEYWHITE FUNERAL SERVICE An Independent FamilyRun Funeral Service est. 1897 We understand how distressing the loss of a loved one can be, at Lilleywhite Funeral Service", "services_found": "CALL US | FIRST STEPS | CALL US | FIRST STEPS | CALL US | FIRST STEPS | You can reach us by phone 24 hours a day, 365 days a year | You can reach us by phone 24 hours a day, 365 days a year | CALL US | FIRST STEPS", "phone_on_site": "0000000000, 0000007735", "address_on_site": "", "social_links": "none found", "processed_at": "2026-05-20 04:12", "first_name": "", "business_name": "Lilleywhite Funeral Service", "email": "khuzaimapasha55@gmail.com", "city": "", "state": "", "country": "UK", "niche": "Funeral service & cemetery", "phone": "", "website": "lilleywhite-funerals.co.uk", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Kane funeral service - Middleton ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "zain@tekscrum.com", "business_name": "Kane funeral service - Middleton", "row_number": "", "processed_at": "2026-05-20 04:14"}
+
+STDERR:
+
+
+--- LEAD: Greater Manchester Funeral Service ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "khuzaimapasha24@gmail.com", "business_name": "Greater Manchester Funeral Service", "row_number": "", "processed_at": "2026-05-20 04:16"}
+
+STDERR:
+
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Jason Worsnip Family Funeral Service", "email_body": "Hi,\n\nI was looking at the Jason Worsnip Family Funeral Service site earlier.\n\nI noticed families need to scroll down a bit to see the main contact details.\n\nWe help funeral homes make sure families can take that first step easily.\n\nWould it be worth 15 minutes to chat about making that clearer for Jason Worsnip Family Funeral Service?\n\nCraig", "word_count": 60, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "24.3s", "leads_processed": 197, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "unknown", "mobile_score": "unknown", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "modern (2021+)", "page_title": "Jason Worsnip Family Funeral Service in Shaw, Oldham, Lancashire", "meta_description": "Jason Worsnip Family Funeral Service is a new family-run independant funeral directors in Shaw", "services_found": "none detected", "phone_on_site": "2545352419, 441706 8402", "address_on_site": "", "social_links": "facebook, x", "processed_at": "2026-05-20 04:19", "first_name": "", "business_name": "Jason Worsnip Family Funeral Service", "email": "zainulabideenbawa@gmail.com", "city": "", "state": "", "country": "US", "niche": "Funeral service & cemetery", "phone": "", "website": "jasonworsnip.com", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "zainulabideenbawa@gmail.com", "business_name": "Jason Worsnip Family Funeral Service", "row_number": "", "processed_at": "2026-05-20 04:25"}
+
+STDERR:
+
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "Lead missing required 'email' field"}
+
+STDERR:
+
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "Lead missing required 'email' field"}
+
+STDERR:
+
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "zainulabideenbawa@gmail.com", "business_name": "Jason Worsnip Family Funeral Service", "row_number": "", "processed_at": "2026-05-20 05:08"}
+
+STDERR:
+
+
+--- LEAD: Lilleywhite Funeral Service ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "khuzaimapasha55@gmail.com", "business_name": "Lilleywhite Funeral Service", "row_number": "", "processed_at": "2026-05-20 05:10"}
+
+STDERR:
+
+
+--- LEAD: Kane funeral service - Middleton ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "zain@tekscrum.com", "business_name": "Kane funeral service - Middleton", "row_number": "", "processed_at": "2026-05-20 05:12"}
+
+STDERR:
+
+
+--- LEAD: Greater Manchester Funeral Service ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "khuzaimapasha24@gmail.com", "business_name": "Greater Manchester Funeral Service", "row_number": "", "processed_at": "2026-05-20 05:14"}
+
+STDERR:
+
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "zainulabideenbawa@gmail.com", "business_name": "Jason Worsnip Family Funeral Service", "row_number": "", "processed_at": "2026-05-20 05:23"}
+
+STDERR:
+
+
+--- LEAD: Lilleywhite Funeral Service ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "khuzaimapasha55@gmail.com", "business_name": "Lilleywhite Funeral Service", "row_number": "", "processed_at": "2026-05-20 05:25"}
+
+STDERR:
+
+
+--- LEAD: Kane funeral service - Middleton ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "zain@tekscrum.com", "business_name": "Kane funeral service - Middleton", "row_number": "", "processed_at": "2026-05-20 05:28"}
+
+STDERR:
+
+
+--- LEAD: Greater Manchester Funeral Service ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "khuzaimapasha24@gmail.com", "business_name": "Greater Manchester Funeral Service", "row_number": "", "processed_at": "2026-05-20 05:29"}
+
+STDERR:
+
