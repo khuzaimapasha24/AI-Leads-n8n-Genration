@@ -1210,3 +1210,35 @@ STDOUT:
 
 STDERR:
 
+
+--- LEAD: Jason Worsnip Family Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Jason Worsnip Family Funeral Service", "email_body": "Hi,\n\nI was looking at sites in Shaw earlier today and yours came up.\n\nOn a phone, it takes just over 4 seconds to fully load. That's long enough for people to often move on before seeing your services.\n\nWe help funeral homes make sure families can see what they offer without delay.\n\nWould it be worth 15 minutes to chat about speeding things up for Jason Worsnip Family Funeral Service?\n\nCraig", "word_count": 72, "pain_used": "unknown", "country_rule": "US", "qc_status": "PASSED", "retry_count": 0, "processing_time": "33.1s", "leads_processed": 174, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "4.2", "mobile_score": "80", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "modern (2021+)", "page_title": "Jason Worsnip Family Funeral Service in Shaw, Oldham, Lancashire", "meta_description": "Jason Worsnip Family Funeral Service is a new family-run independant funeral directors in Shaw", "services_found": "none detected", "phone_on_site": "2545352419, 441706 8402", "address_on_site": "", "social_links": "facebook, x", "processed_at": "2026-05-19 23:05", "first_name": "", "business_name": "Jason Worsnip Family Funeral Service", "email": "zainulabideenbawa@gmail.com", "city": "", "state": "", "country": "US", "niche": "Funeral service & cemetery", "phone": "", "website": "jasonworsnip.com", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Lilleywhite Funeral Service ---
+Return Code: 0
+STDOUT:
+{"status": "DONE", "email_subject": "quick question about Lilleywhite Funeral Service", "email_body": "Hi,\n\nI was looking at the Lilleywhite Funeral Service site today.\n\nOn a phone, it takes closer to 16 seconds to fully load. That's usually long enough for people to click away before they see your services.\n\nWe help make sure families can find what they need quickly and easily.\n\nWould it be worth 15 minutes to chat about getting the Lilleywhite Funeral Service site loading faster?\n\nCraig", "word_count": 68, "pain_used": "unknown", "country_rule": "UK", "qc_status": "PASSED", "retry_count": 0, "processing_time": "74.3s", "leads_processed": 175, "business_bio": "Not generated.", "pages_scraped": "4", "gmb_rating": "unknown", "gmb_reviews": "unknown", "gmb_review_theme": "", "gmb_link": "", "mobile_load_time": "16.0", "mobile_score": "60", "has_form": "True", "has_pricing_page": "True", "has_ssl": "True", "design_era": "unknown", "page_title": "Home | Lilleywhite Funeral Services", "meta_description": "An Independent FamilyRun Funeral Service� est. 1897 Previous slide Next slide An Independent FamilyRun Funeral Service est. 1897 LILLEYWHITE FUNERAL SERVICE An Independent FamilyRun Funeral Service est. 1897 We understand how distressing the loss of a loved one can be, at Lilleywhite Funeral Service", "services_found": "CALL US | FIRST STEPS | CALL US | FIRST STEPS | CALL US | FIRST STEPS | You can reach us by phone 24 hours a day, 365 days a year | You can reach us by phone 24 hours a day, 365 days a year | CALL US | FIRST STEPS", "phone_on_site": "0000000000, 0000007735", "address_on_site": "", "social_links": "none found", "processed_at": "2026-05-19 23:07", "first_name": "", "business_name": "Lilleywhite Funeral Service", "email": "khuzaimapasha55@gmail.com", "city": "", "state": "", "country": "UK", "niche": "Funeral service & cemetery", "phone": "", "website": "lilleywhite-funerals.co.uk", "row_number": ""}
+
+STDERR:
+
+
+--- LEAD: Kane funeral service - Middleton ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "zain@tekscrum.com", "business_name": "Kane funeral service - Middleton", "row_number": "", "processed_at": "2026-05-19 23:09"}
+
+STDERR:
+
+
+--- LEAD: Greater Manchester Funeral Service ---
+Return Code: 1
+STDOUT:
+{"status": "ERROR", "error": "All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '", "email": "khuzaimapasha24@gmail.com", "business_name": "Greater Manchester Funeral Service", "row_number": "", "processed_at": "2026-05-19 23:10"}
+
+STDERR:
+

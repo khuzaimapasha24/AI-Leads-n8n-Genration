@@ -9984,3 +9984,383 @@ Traceback (most recent call last):
   File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 698, in call_gemini
     raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
 Exception: All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '
+2026-05-19 23:05:08,401  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 23:05:08,403  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 23:05:10,353  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 23:05:13,463  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 23:05:23,278  INFO        PageSpeed: 4.2s score=80/100
+2026-05-19 23:05:23,281  INFO        Data gathered in 14.9s (parallel)
+2026-05-19 23:05:23,282  INFO        Country auto-detected: US
+2026-05-19 23:05:23,282  INFO        Calling Gemini... (learnings from 173 past leads)
+2026-05-19 23:05:30,944  INFO        Trying Key_1...
+2026-05-19 23:05:30,945  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:05:41,460  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 23:05:41,463  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 23:05:41,488  INFO        Attempt 1: pain=unknown words=72 QC=PASSED
+2026-05-19 23:05:41,490  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 23:05:41,490  INFO        Total time: 33.1s
+2026-05-19 23:06:08,528  INFO      ━━━ Processing: Lilleywhite Funeral Service,  ━━━
+2026-05-19 23:06:08,530  INFO        GMB Places search: Lilleywhite Funeral Service   US
+2026-05-19 23:06:09,453  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 23:06:15,133  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Home | Lilleywhite Funeral Services
+2026-05-19 23:06:34,058  INFO        PageSpeed: 16.0s score=60/100
+2026-05-19 23:06:34,063  INFO        Data gathered in 25.5s (parallel)
+2026-05-19 23:06:34,063  INFO        Country auto-detected: UK
+2026-05-19 23:06:34,089  INFO        Calling Gemini... (learnings from 174 past leads)
+2026-05-19 23:06:40,750  INFO        Trying Key_1...
+2026-05-19 23:06:40,751  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:06:41,793  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 23:06:41,796  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 23:06:41,796  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-19 23:06:41,797  WARNING     Key_1 exhausted. Trying next key...
+2026-05-19 23:06:41,797  INFO        Trying Key_2...
+2026-05-19 23:06:41,798  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:06:42,737  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 23:06:42,740  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 23:06:42,741  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-19 23:06:42,741  WARNING     Key_2 exhausted. Trying next key...
+2026-05-19 23:06:42,741  INFO        Trying Key_3...
+2026-05-19 23:06:42,742  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:06:43,665  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 23:06:43,667  WARNING     ❌ Key_3 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 23:06:43,668  WARNING     Key_3 credits exhausted, switching to next key...
+2026-05-19 23:06:43,668  WARNING     Key_3 exhausted. Trying next key...
+2026-05-19 23:06:43,668  INFO        Trying Key_4...
+2026-05-19 23:06:43,669  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:06:44,054  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:06:44,058  WARNING     ❌ Key_4 gemini-2.5-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:06:46,059  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:06:46,514  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:06:46,516  WARNING     ❌ Key_4 gemini-2.5-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:06:48,518  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:06:48,793  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:06:48,795  WARNING     ❌ Key_4 gemini-2.5-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:06:48,796  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:06:49,314  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:06:49,317  WARNING     ❌ Key_4 gemini-2.0-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:06:51,318  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:06:51,519  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:06:51,522  WARNING     ❌ Key_4 gemini-2.0-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:06:53,523  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:06:53,779  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:06:53,782  WARNING     ❌ Key_4 gemini-2.0-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:06:53,783  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:06:54,315  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:06:54,318  WARNING     ❌ Key_4 gemini-flash-latest attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:06:56,319  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:06:56,559  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:06:56,561  WARNING     ❌ Key_4 gemini-flash-latest attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:06:58,562  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:06:58,812  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:06:58,814  WARNING     ❌ Key_4 gemini-flash-latest attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:06:58,814  WARNING     Key_4 exhausted. Trying next key...
+2026-05-19 23:06:58,815  INFO        Trying Key_5...
+2026-05-19 23:06:58,815  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:06:59,853  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 23:06:59,857  WARNING     ❌ Key_5 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 23:06:59,857  WARNING     Key_5 credits exhausted, switching to next key...
+2026-05-19 23:06:59,857  WARNING     Key_5 exhausted. Trying next key...
+2026-05-19 23:06:59,858  INFO        Trying Key_6...
+2026-05-19 23:06:59,858  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:07:00,855  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:07:00,859  WARNING     ❌ Key_6 gemini-2.5-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:07:02,860  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:07:03,054  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:07:03,057  WARNING     ❌ Key_6 gemini-2.5-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:07:05,058  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:07:05,264  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:07:05,267  WARNING     ❌ Key_6 gemini-2.5-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:07:05,268  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:07:05,801  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:07:05,807  WARNING     ❌ Key_6 gemini-2.0-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:07:07,808  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:07:07,990  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:07:07,992  WARNING     ❌ Key_6 gemini-2.0-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:07:09,993  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:07:10,176  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:07:10,177  WARNING     ❌ Key_6 gemini-2.0-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:07:10,178  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:07:10,737  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:07:10,739  WARNING     ❌ Key_6 gemini-flash-latest attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:07:12,740  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:07:12,953  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:07:12,960  WARNING     ❌ Key_6 gemini-flash-latest attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:07:14,961  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:07:15,155  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:07:15,156  WARNING     ❌ Key_6 gemini-flash-latest attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:07:15,157  WARNING     Key_6 exhausted. Trying next key...
+2026-05-19 23:07:15,157  INFO        Trying Key_7...
+2026-05-19 23:07:15,158  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:07:22,847  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 23:07:22,852  INFO        ✅ Success! Model: gemini-2.5-flash (Key_7)
+2026-05-19 23:07:22,856  INFO        Attempt 1: pain=unknown words=68 QC=PASSED
+2026-05-19 23:07:22,860  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 23:07:22,861  INFO        Total time: 74.3s
+2026-05-19 23:07:49,436  INFO      ━━━ Processing: Kane funeral service - Middleton,  ━━━
+2026-05-19 23:07:49,438  INFO        GMB Places search: Kane funeral service - Middleton   US
+2026-05-19 23:07:50,344  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 23:08:10,055  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Home -
+2026-05-19 23:08:10,618  INFO        PageSpeed: unknowns score=unknown/100
+2026-05-19 23:08:10,626  INFO        Data gathered in 21.2s (parallel)
+2026-05-19 23:08:10,631  INFO        Country auto-detected: US
+2026-05-19 23:08:10,663  INFO        Calling Gemini... (learnings from 175 past leads)
+2026-05-19 23:08:17,547  INFO        Trying Key_1...
+2026-05-19 23:08:17,547  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:18,601  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 23:08:18,602  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 23:08:18,602  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-19 23:08:18,603  WARNING     Key_1 exhausted. Trying next key...
+2026-05-19 23:08:18,603  INFO        Trying Key_2...
+2026-05-19 23:08:18,603  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:19,527  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 23:08:19,530  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 23:08:19,530  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-19 23:08:19,530  WARNING     Key_2 exhausted. Trying next key...
+2026-05-19 23:08:19,531  INFO        Trying Key_3...
+2026-05-19 23:08:19,531  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:20,465  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 23:08:20,466  WARNING     ❌ Key_3 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 23:08:20,466  WARNING     Key_3 credits exhausted, switching to next key...
+2026-05-19 23:08:20,466  WARNING     Key_3 exhausted. Trying next key...
+2026-05-19 23:08:20,466  INFO        Trying Key_4...
+2026-05-19 23:08:20,466  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:21,359  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:21,361  WARNING     ❌ Key_4 gemini-2.5-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:23,363  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:23,536  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:23,539  WARNING     ❌ Key_4 gemini-2.5-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:25,540  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:25,722  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:25,725  WARNING     ❌ Key_4 gemini-2.5-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:25,725  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:26,271  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:26,273  WARNING     ❌ Key_4 gemini-2.0-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:28,274  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:28,483  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:28,486  WARNING     ❌ Key_4 gemini-2.0-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:30,488  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:30,677  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:30,679  WARNING     ❌ Key_4 gemini-2.0-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:30,680  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:31,220  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:31,221  WARNING     ❌ Key_4 gemini-flash-latest attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:33,222  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:33,404  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:33,406  WARNING     ❌ Key_4 gemini-flash-latest attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:35,407  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:35,585  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:35,587  WARNING     ❌ Key_4 gemini-flash-latest attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:35,588  WARNING     Key_4 exhausted. Trying next key...
+2026-05-19 23:08:35,588  INFO        Trying Key_5...
+2026-05-19 23:08:35,588  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:35,965  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 23:08:35,967  WARNING     ❌ Key_5 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 23:08:35,968  WARNING     Key_5 credits exhausted, switching to next key...
+2026-05-19 23:08:35,968  WARNING     Key_5 exhausted. Trying next key...
+2026-05-19 23:08:35,968  INFO        Trying Key_6...
+2026-05-19 23:08:35,969  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:36,839  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:36,841  WARNING     ❌ Key_6 gemini-2.5-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:38,842  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:39,020  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:39,022  WARNING     ❌ Key_6 gemini-2.5-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:41,023  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:41,208  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:41,211  WARNING     ❌ Key_6 gemini-2.5-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:41,211  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:41,750  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:41,753  WARNING     ❌ Key_6 gemini-2.0-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:43,755  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:43,941  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:43,944  WARNING     ❌ Key_6 gemini-2.0-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:45,945  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:46,126  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:46,128  WARNING     ❌ Key_6 gemini-2.0-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:46,129  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:46,673  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:46,674  WARNING     ❌ Key_6 gemini-flash-latest attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:48,676  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:48,853  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:48,857  WARNING     ❌ Key_6 gemini-flash-latest attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:50,858  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:51,043  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:51,044  WARNING     ❌ Key_6 gemini-flash-latest attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:51,044  WARNING     Key_6 exhausted. Trying next key...
+2026-05-19 23:08:51,045  INFO        Trying Key_7...
+2026-05-19 23:08:51,045  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:51,981  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 23:08:51,986  WARNING     ❌ Key_7 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 23:08:51,987  WARNING     Key_7 credits exhausted, switching to next key...
+2026-05-19 23:08:51,987  WARNING     Key_7 exhausted. Trying next key...
+2026-05-19 23:08:51,987  INFO        Trying Key_8...
+2026-05-19 23:08:51,988  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:52,885  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:52,887  WARNING     ❌ Key_8 gemini-2.5-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:54,888  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:55,075  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:55,077  WARNING     ❌ Key_8 gemini-2.5-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:57,078  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:57,260  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:57,262  WARNING     ❌ Key_8 gemini-2.5-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:57,263  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:08:57,812  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:08:57,814  WARNING     ❌ Key_8 gemini-2.0-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:08:59,815  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:09:00,007  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:09:00,014  WARNING     ❌ Key_8 gemini-2.0-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:09:02,015  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:09:02,194  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:09:02,196  WARNING     ❌ Key_8 gemini-2.0-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:09:02,196  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:09:02,742  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:09:02,745  WARNING     ❌ Key_8 gemini-flash-latest attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:09:04,746  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:09:04,929  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:09:04,931  WARNING     ❌ Key_8 gemini-flash-latest attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:09:06,932  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:09:07,112  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:09:07,114  WARNING     ❌ Key_8 gemini-flash-latest attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:09:07,114  WARNING     Key_8 exhausted. Trying next key...
+2026-05-19 23:09:07,114  ERROR       Pipeline error: All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1146, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 754, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 698, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '
+2026-05-19 23:09:33,778  INFO      ━━━ Processing: Greater Manchester Funeral Service,  ━━━
+2026-05-19 23:09:33,780  INFO        GMB Places search: Greater Manchester Funeral Service   US
+2026-05-19 23:09:34,799  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 23:09:36,650  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Greater Manchester Funeral Service - Welcome
+2026-05-19 23:09:45,986  INFO        PageSpeed: 4.5s score=78/100
+2026-05-19 23:09:45,994  INFO        Data gathered in 12.2s (parallel)
+2026-05-19 23:09:45,997  INFO        Country auto-detected: US
+2026-05-19 23:09:45,999  INFO        Calling Gemini... (learnings from 175 past leads)
+2026-05-19 23:09:53,271  INFO        Trying Key_1...
+2026-05-19 23:09:53,272  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:09:54,370  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 23:09:54,376  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 23:09:54,376  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-19 23:09:54,377  WARNING     Key_1 exhausted. Trying next key...
+2026-05-19 23:09:54,377  INFO        Trying Key_2...
+2026-05-19 23:09:54,378  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:09:55,311  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 23:09:55,314  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 23:09:55,315  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-19 23:09:55,315  WARNING     Key_2 exhausted. Trying next key...
+2026-05-19 23:09:55,315  INFO        Trying Key_3...
+2026-05-19 23:09:55,315  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:09:56,242  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 23:09:56,244  WARNING     ❌ Key_3 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 23:09:56,245  WARNING     Key_3 credits exhausted, switching to next key...
+2026-05-19 23:09:56,245  WARNING     Key_3 exhausted. Trying next key...
+2026-05-19 23:09:56,245  INFO        Trying Key_4...
+2026-05-19 23:09:56,245  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:09:57,126  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:09:57,127  WARNING     ❌ Key_4 gemini-2.5-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:09:59,129  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:09:59,849  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:09:59,853  WARNING     ❌ Key_4 gemini-2.5-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:01,855  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:02,039  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:02,043  WARNING     ❌ Key_4 gemini-2.5-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:02,044  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:02,607  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:02,613  WARNING     ❌ Key_4 gemini-2.0-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:04,614  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:04,794  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:04,795  WARNING     ❌ Key_4 gemini-2.0-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:06,796  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:06,967  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:06,969  WARNING     ❌ Key_4 gemini-2.0-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:06,969  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:07,538  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:07,541  WARNING     ❌ Key_4 gemini-flash-latest attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:09,542  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:09,766  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:09,767  WARNING     ❌ Key_4 gemini-flash-latest attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:11,767  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:11,948  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:11,953  WARNING     ❌ Key_4 gemini-flash-latest attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:11,954  WARNING     Key_4 exhausted. Trying next key...
+2026-05-19 23:10:11,954  INFO        Trying Key_5...
+2026-05-19 23:10:11,955  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:12,868  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 23:10:12,870  WARNING     ❌ Key_5 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 23:10:12,871  WARNING     Key_5 credits exhausted, switching to next key...
+2026-05-19 23:10:12,871  WARNING     Key_5 exhausted. Trying next key...
+2026-05-19 23:10:12,871  INFO        Trying Key_6...
+2026-05-19 23:10:12,872  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:13,213  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:13,215  WARNING     ❌ Key_6 gemini-2.5-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:15,217  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:15,397  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:15,401  WARNING     ❌ Key_6 gemini-2.5-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:17,402  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:17,584  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:17,585  WARNING     ❌ Key_6 gemini-2.5-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:17,586  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:18,147  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:18,150  WARNING     ❌ Key_6 gemini-2.0-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:20,151  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:20,329  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:20,331  WARNING     ❌ Key_6 gemini-2.0-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:22,332  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:22,512  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:22,515  WARNING     ❌ Key_6 gemini-2.0-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:22,516  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:23,059  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:23,062  WARNING     ❌ Key_6 gemini-flash-latest attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:25,063  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:25,242  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:25,246  WARNING     ❌ Key_6 gemini-flash-latest attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:27,247  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:27,415  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:27,415  WARNING     ❌ Key_6 gemini-flash-latest attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:27,415  WARNING     Key_6 exhausted. Trying next key...
+2026-05-19 23:10:27,415  INFO        Trying Key_7...
+2026-05-19 23:10:27,416  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:28,330  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 23:10:28,332  WARNING     ❌ Key_7 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 23:10:28,332  WARNING     Key_7 credits exhausted, switching to next key...
+2026-05-19 23:10:28,332  WARNING     Key_7 exhausted. Trying next key...
+2026-05-19 23:10:28,333  INFO        Trying Key_8...
+2026-05-19 23:10:28,333  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:29,227  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:29,229  WARNING     ❌ Key_8 gemini-2.5-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:31,229  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:31,411  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:31,411  WARNING     ❌ Key_8 gemini-2.5-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:33,412  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:33,590  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:33,593  WARNING     ❌ Key_8 gemini-2.5-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:33,593  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:34,140  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:34,142  WARNING     ❌ Key_8 gemini-2.0-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:36,142  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:36,309  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:36,310  WARNING     ❌ Key_8 gemini-2.0-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:38,311  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:38,498  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:38,501  WARNING     ❌ Key_8 gemini-2.0-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:38,501  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:39,046  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:39,048  WARNING     ❌ Key_8 gemini-flash-latest attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:41,049  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:41,776  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:41,778  WARNING     ❌ Key_8 gemini-flash-latest attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:43,779  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 23:10:43,960  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 23:10:43,961  WARNING     ❌ Key_8 gemini-flash-latest attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 23:10:43,961  WARNING     Key_8 exhausted. Trying next key...
+2026-05-19 23:10:43,961  ERROR       Pipeline error: All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1146, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 754, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 698, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '
