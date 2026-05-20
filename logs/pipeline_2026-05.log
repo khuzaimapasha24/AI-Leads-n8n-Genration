@@ -9005,3 +9005,982 @@ Traceback (most recent call last):
   File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 698, in call_gemini
     raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
 Exception: All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '
+2026-05-19 06:00:10,496  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 06:00:10,498  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 06:00:13,131  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 06:00:26,930  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 06:00:37,816  INFO        PageSpeed: 7.2s score=80/100
+2026-05-19 06:00:37,822  INFO        Data gathered in 27.3s (parallel)
+2026-05-19 06:00:37,824  INFO        Country auto-detected: US
+2026-05-19 06:00:37,842  INFO        Calling Gemini... (learnings from 155 past leads)
+2026-05-19 06:00:46,138  INFO        Trying Key_1...
+2026-05-19 06:00:46,139  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:00:50,995  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:00:50,996  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:00:52,998  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:00:54,655  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:00:54,659  WARNING     ❌ Key_1 gemini-2.5-flash attempt 2: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:00:56,659  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:00:59,644  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:00:59,647  WARNING     ❌ Key_1 gemini-2.5-flash attempt 3: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:00:59,647  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:00:59,866  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 06:00:59,866  WARNING     ❌ Key_1 gemini-2.0-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 06:00:59,867  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-19 06:00:59,867  WARNING     Key_1 exhausted. Trying next key...
+2026-05-19 06:00:59,867  INFO        Trying Key_2...
+2026-05-19 06:00:59,867  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:01:07,129  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:01:07,131  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:01:09,132  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:01:17,221  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:01:17,222  WARNING     ❌ Key_2 gemini-2.5-flash attempt 2: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:01:19,223  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:01:19,938  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:01:19,941  WARNING     ❌ Key_2 gemini-2.5-flash attempt 3: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:01:19,941  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:01:20,164  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 06:01:20,167  WARNING     ❌ Key_2 gemini-2.0-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 06:01:20,167  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-19 06:01:20,167  WARNING     Key_2 exhausted. Trying next key...
+2026-05-19 06:01:20,168  INFO        Trying Key_3...
+2026-05-19 06:01:20,168  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:01:21,147  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 06:01:21,148  WARNING     ❌ Key_3 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 06:01:21,148  WARNING     Key_3 credits exhausted, switching to next key...
+2026-05-19 06:01:21,149  WARNING     Key_3 exhausted. Trying next key...
+2026-05-19 06:01:21,149  INFO        Trying Key_4...
+2026-05-19 06:01:21,149  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:01:22,105  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 06:01:22,106  WARNING     ❌ Key_4 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 06:01:22,106  WARNING     Key_4 credits exhausted, switching to next key...
+2026-05-19 06:01:22,106  WARNING     Key_4 exhausted. Trying next key...
+2026-05-19 06:01:22,107  INFO        Trying Key_5...
+2026-05-19 06:01:22,107  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:01:23,049  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 06:01:23,050  WARNING     ❌ Key_5 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 06:01:23,050  WARNING     Key_5 credits exhausted, switching to next key...
+2026-05-19 06:01:23,051  WARNING     Key_5 exhausted. Trying next key...
+2026-05-19 06:01:23,051  INFO        Trying Key_6...
+2026-05-19 06:01:23,051  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:01:23,999  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 06:01:24,001  WARNING     ❌ Key_6 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 06:01:24,001  WARNING     Key_6 credits exhausted, switching to next key...
+2026-05-19 06:01:24,001  WARNING     Key_6 exhausted. Trying next key...
+2026-05-19 06:01:24,001  INFO        Trying Key_7...
+2026-05-19 06:01:24,001  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:01:26,483  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:01:26,484  WARNING     ❌ Key_7 gemini-2.5-flash attempt 1: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:01:28,485  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:01:38,101  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 06:01:38,102  INFO        ✅ Success! Model: gemini-2.5-flash (Key_7)
+2026-05-19 06:01:38,103  INFO        Attempt 1: pain=unknown words=82 QC=PASSED
+2026-05-19 06:01:38,105  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 06:01:38,105  INFO        Total time: 87.6s
+2026-05-19 06:02:05,164  INFO      ━━━ Processing: Lilleywhite Funeral Service,  ━━━
+2026-05-19 06:02:05,166  INFO        GMB Places search: Lilleywhite Funeral Service   US
+2026-05-19 06:02:07,189  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 06:02:16,461  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Home | Lilleywhite Funeral Services
+2026-05-19 06:02:33,959  INFO        PageSpeed: 16.5s score=51/100
+2026-05-19 06:02:33,963  INFO        Data gathered in 28.8s (parallel)
+2026-05-19 06:02:33,963  INFO        Country auto-detected: UK
+2026-05-19 06:02:33,980  INFO        Calling Gemini... (learnings from 156 past leads)
+2026-05-19 06:02:41,528  INFO        Trying Key_1...
+2026-05-19 06:02:41,529  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:02:44,144  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:02:44,148  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:02:46,149  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:02:51,492  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:02:51,494  WARNING     ❌ Key_1 gemini-2.5-flash attempt 2: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:02:53,496  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:02:54,345  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:02:54,347  WARNING     ❌ Key_1 gemini-2.5-flash attempt 3: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:02:54,347  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:02:54,583  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 06:02:54,588  WARNING     ❌ Key_1 gemini-2.0-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 06:02:54,588  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-19 06:02:54,589  WARNING     Key_1 exhausted. Trying next key...
+2026-05-19 06:02:54,589  INFO        Trying Key_2...
+2026-05-19 06:02:54,590  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:02:58,549  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:02:58,550  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:03:00,551  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:03:06,978  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:03:06,979  WARNING     ❌ Key_2 gemini-2.5-flash attempt 2: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:03:08,981  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:03:10,708  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:03:10,710  WARNING     ❌ Key_2 gemini-2.5-flash attempt 3: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:03:10,710  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:03:10,916  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 06:03:10,917  WARNING     ❌ Key_2 gemini-2.0-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 06:03:10,917  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-19 06:03:10,918  WARNING     Key_2 exhausted. Trying next key...
+2026-05-19 06:03:10,918  INFO        Trying Key_3...
+2026-05-19 06:03:10,918  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:03:13,518  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:03:13,519  WARNING     ❌ Key_3 gemini-2.5-flash attempt 1: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:03:15,520  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:03:24,607  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 06:03:24,610  INFO        ✅ Success! Model: gemini-2.5-flash (Key_3)
+2026-05-19 06:03:24,611  INFO        Attempt 1: pain=unknown words=73 QC=PASSED
+2026-05-19 06:03:24,612  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 06:03:24,613  INFO        Total time: 79.4s
+2026-05-19 06:03:56,669  INFO      ━━━ Processing: Kane funeral service - Middleton,  ━━━
+2026-05-19 06:03:56,670  INFO        GMB Places search: Kane funeral service - Middleton   US
+2026-05-19 06:03:59,251  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 06:04:02,315  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Home -
+2026-05-19 06:04:38,567  WARNING     PageSpeed error: HTTPSConnectionPool(host='www.googleapis.com', port=443): Read timed out. (read timeout=40)
+2026-05-19 06:04:38,568  INFO        Data gathered in 41.9s (parallel)
+2026-05-19 06:04:38,571  INFO        Country auto-detected: US
+2026-05-19 06:04:38,586  INFO        Calling Gemini... (learnings from 157 past leads)
+2026-05-19 06:04:46,106  INFO        Trying Key_1...
+2026-05-19 06:04:46,107  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:04:52,721  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:04:52,722  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:04:54,723  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:05:13,212  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 06:05:13,215  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 06:05:13,217  INFO        Attempt 1: pain=unknown words=74 QC=PASSED
+2026-05-19 06:05:13,218  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 06:05:13,219  INFO        Total time: 76.5s
+2026-05-19 06:05:39,368  INFO      ━━━ Processing: Greater Manchester Funeral Service,  ━━━
+2026-05-19 06:05:39,370  INFO        GMB Places search: Greater Manchester Funeral Service   US
+2026-05-19 06:05:40,694  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 06:05:43,319  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Greater Manchester Funeral Service - Welcome
+2026-05-19 06:05:57,509  INFO        PageSpeed: 4.5s score=77/100
+2026-05-19 06:05:57,511  INFO        Data gathered in 18.1s (parallel)
+2026-05-19 06:05:57,512  INFO        Country auto-detected: US
+2026-05-19 06:05:57,529  INFO        Calling Gemini... (learnings from 158 past leads)
+2026-05-19 06:06:06,022  INFO        Trying Key_1...
+2026-05-19 06:06:06,023  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:06:08,441  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:06:08,444  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:06:10,445  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:06:12,713  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 06:06:12,715  WARNING     ❌ Key_1 gemini-2.5-flash attempt 2: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 06:06:14,716  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 06:06:20,949  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 06:06:20,952  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 06:06:20,954  INFO        Attempt 1: pain=unknown words=84 QC=PASSED
+2026-05-19 06:06:20,955  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 06:06:20,955  INFO        Total time: 41.6s
+2026-05-19 08:30:53,834  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 08:30:53,856  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 08:30:55,765  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 08:31:01,205  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 08:31:18,551  INFO        PageSpeed: 7.4s score=82/100
+2026-05-19 08:31:18,556  INFO        Data gathered in 24.7s (parallel)
+2026-05-19 08:31:18,558  INFO        Country auto-detected: US
+2026-05-19 08:31:18,584  INFO        Calling Gemini... (learnings from 159 past leads)
+2026-05-19 08:31:35,405  INFO        Trying Key_1...
+2026-05-19 08:31:35,406  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 08:31:47,609  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 08:31:47,618  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 08:31:47,665  ERROR       Pipeline error: global flags not at the start of the expression at position 1
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1146, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 767, in generate_email
+    body = re.sub(r"^(?i)subject:\s*.+?\n+", "", body).strip()
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\__init__.py", line 208, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Python314\Lib\re\_compiler.py", line 762, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Python314\Lib\re\_parser.py", line 973, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python314\Lib\re\_parser.py", line 460, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\_parser.py", line 834, in _parse
+    raise source.error('global flags not at the start '
+                       'of the expression',
+                       source.tell() - start)
+re.PatternError: global flags not at the start of the expression at position 1
+2026-05-19 08:41:31,687  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 08:41:32,523  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 08:41:38,634  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 08:41:54,024  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 08:41:56,633  INFO        PageSpeed: 7.6s score=82/100
+2026-05-19 08:41:56,642  INFO        Data gathered in 25.0s (parallel)
+2026-05-19 08:41:56,645  INFO        Country auto-detected: US
+2026-05-19 08:41:56,646  INFO        Calling Gemini... (learnings from 159 past leads)
+2026-05-19 08:42:30,551  INFO        Trying Key_1...
+2026-05-19 08:42:30,551  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 08:42:43,879  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 08:42:43,882  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 08:42:43,920  ERROR       Pipeline error: global flags not at the start of the expression at position 1
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1146, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 767, in generate_email
+    body = re.sub(r"^(?i)subject:\s*.+?\n+", "", body).strip()
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\__init__.py", line 208, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Python314\Lib\re\_compiler.py", line 762, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Python314\Lib\re\_parser.py", line 973, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python314\Lib\re\_parser.py", line 460, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\_parser.py", line 834, in _parse
+    raise source.error('global flags not at the start '
+                       'of the expression',
+                       source.tell() - start)
+re.PatternError: global flags not at the start of the expression at position 1
+2026-05-19 08:45:46,418  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 08:45:46,421  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 08:45:50,727  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 08:46:00,426  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 08:46:10,429  INFO        PageSpeed: 4.0s score=82/100
+2026-05-19 08:46:10,434  INFO        Data gathered in 24.0s (parallel)
+2026-05-19 08:46:10,436  INFO        Country auto-detected: US
+2026-05-19 08:46:10,437  INFO        Calling Gemini... (learnings from 159 past leads)
+2026-05-19 08:46:48,550  INFO        Trying Key_1...
+2026-05-19 08:46:48,553  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 08:46:56,971  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 08:46:56,974  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 08:46:57,037  ERROR       Pipeline error: global flags not at the start of the expression at position 1
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1146, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 767, in generate_email
+    body = re.sub(r"^(?i)subject:\s*.+?\n+", "", body).strip()
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\__init__.py", line 208, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Python314\Lib\re\_compiler.py", line 762, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Python314\Lib\re\_parser.py", line 973, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python314\Lib\re\_parser.py", line 460, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\_parser.py", line 834, in _parse
+    raise source.error('global flags not at the start '
+                       'of the expression',
+                       source.tell() - start)
+re.PatternError: global flags not at the start of the expression at position 1
+2026-05-19 08:47:56,466  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 08:47:56,481  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 08:47:59,840  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 08:48:08,903  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 08:48:20,118  INFO        PageSpeed: 7.2s score=83/100
+2026-05-19 08:48:20,123  INFO        Data gathered in 23.7s (parallel)
+2026-05-19 08:48:20,125  INFO        Country auto-detected: US
+2026-05-19 08:48:20,126  INFO        Calling Gemini... (learnings from 159 past leads)
+2026-05-19 08:48:51,170  INFO        Trying Key_1...
+2026-05-19 08:48:51,171  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 08:48:53,434  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 08:48:53,436  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 08:48:53,436  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-19 08:48:53,436  WARNING     Key_1 exhausted. Trying next key...
+2026-05-19 08:48:53,437  INFO        Trying Key_2...
+2026-05-19 08:48:53,437  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 08:48:54,384  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 08:48:54,387  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 08:48:54,387  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-19 08:48:54,388  WARNING     Key_2 exhausted. Trying next key...
+2026-05-19 08:48:54,388  INFO        Trying Key_3...
+2026-05-19 08:48:54,388  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 08:48:55,338  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 08:48:55,340  WARNING     ❌ Key_3 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 08:48:55,340  WARNING     Key_3 credits exhausted, switching to next key...
+2026-05-19 08:48:55,340  WARNING     Key_3 exhausted. Trying next key...
+2026-05-19 08:48:55,340  INFO        Trying Key_4...
+2026-05-19 08:48:55,340  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 08:48:55,725  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 08:48:55,729  WARNING     ❌ Key_4 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 08:48:55,729  WARNING     Key_4 credits exhausted, switching to next key...
+2026-05-19 08:48:55,729  WARNING     Key_4 exhausted. Trying next key...
+2026-05-19 08:48:55,729  INFO        Trying Key_5...
+2026-05-19 08:48:55,729  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 08:48:56,668  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 08:48:56,669  WARNING     ❌ Key_5 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 08:48:56,669  WARNING     Key_5 credits exhausted, switching to next key...
+2026-05-19 08:48:56,670  WARNING     Key_5 exhausted. Trying next key...
+2026-05-19 08:48:56,670  INFO        Trying Key_6...
+2026-05-19 08:48:56,670  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 08:48:57,648  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 08:48:57,650  WARNING     ❌ Key_6 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 08:48:57,650  WARNING     Key_6 credits exhausted, switching to next key...
+2026-05-19 08:48:57,651  WARNING     Key_6 exhausted. Trying next key...
+2026-05-19 08:48:57,651  INFO        Trying Key_7...
+2026-05-19 08:48:57,651  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 08:49:09,694  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 08:49:09,698  INFO        ✅ Success! Model: gemini-2.5-flash (Key_7)
+2026-05-19 08:49:09,702  ERROR       Pipeline error: global flags not at the start of the expression at position 1
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1146, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 767, in generate_email
+    body = re.sub(r"^(?i)subject:\s*.+?\n+", "", body).strip()
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\__init__.py", line 208, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Python314\Lib\re\_compiler.py", line 762, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Python314\Lib\re\_parser.py", line 973, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python314\Lib\re\_parser.py", line 460, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\_parser.py", line 834, in _parse
+    raise source.error('global flags not at the start '
+                       'of the expression',
+                       source.tell() - start)
+re.PatternError: global flags not at the start of the expression at position 1
+2026-05-19 08:49:49,160  INFO      ━━━ Processing: Lilleywhite Funeral Service,  ━━━
+2026-05-19 08:49:49,162  INFO        GMB Places search: Lilleywhite Funeral Service   US
+2026-05-19 08:49:51,089  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 08:49:57,467  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Home | Lilleywhite Funeral Services
+2026-05-19 08:55:14,949  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 08:55:15,016  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 08:55:20,110  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 08:55:29,188  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 08:55:35,180  INFO        PageSpeed: 7.4s score=81/100
+2026-05-19 08:55:35,185  INFO        Data gathered in 20.2s (parallel)
+2026-05-19 08:55:35,194  INFO        Country auto-detected: US
+2026-05-19 08:55:35,195  INFO        Calling Gemini... (learnings from 159 past leads)
+2026-05-19 08:56:04,583  INFO        Trying Key_1...
+2026-05-19 08:56:04,584  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 08:56:15,376  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 08:56:15,379  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 08:56:15,424  ERROR       Pipeline error: global flags not at the start of the expression at position 1
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1146, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 767, in generate_email
+    body = re.sub(r"^(?i)subject:\s*.+?\n+", "", body).strip()
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\__init__.py", line 208, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Python314\Lib\re\_compiler.py", line 762, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Python314\Lib\re\_parser.py", line 973, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python314\Lib\re\_parser.py", line 460, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\_parser.py", line 834, in _parse
+    raise source.error('global flags not at the start '
+                       'of the expression',
+                       source.tell() - start)
+re.PatternError: global flags not at the start of the expression at position 1
+2026-05-19 09:01:47,945  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 09:01:47,953  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 09:01:50,737  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:01:57,543  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 09:02:10,039  INFO        PageSpeed: 7.6s score=82/100
+2026-05-19 09:02:10,045  INFO        Data gathered in 22.1s (parallel)
+2026-05-19 09:02:10,047  INFO        Country auto-detected: US
+2026-05-19 09:02:10,047  INFO        Calling Gemini... (learnings from 159 past leads)
+2026-05-19 09:02:30,007  INFO        Trying Key_1...
+2026-05-19 09:02:30,008  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:02:38,145  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:02:38,148  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 09:02:38,186  ERROR       Pipeline error: global flags not at the start of the expression at position 1
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1146, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 767, in generate_email
+    body = re.sub(r"^(?i)subject:\s*.+?\n+", "", body).strip()
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\__init__.py", line 208, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Python314\Lib\re\_compiler.py", line 762, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Python314\Lib\re\_parser.py", line 973, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python314\Lib\re\_parser.py", line 460, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\_parser.py", line 834, in _parse
+    raise source.error('global flags not at the start '
+                       'of the expression',
+                       source.tell() - start)
+re.PatternError: global flags not at the start of the expression at position 1
+2026-05-19 09:03:11,520  INFO      ━━━ Processing: Lilleywhite Funeral Service,  ━━━
+2026-05-19 09:03:11,528  INFO        GMB Places search: Lilleywhite Funeral Service   US
+2026-05-19 09:03:14,075  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:03:24,764  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Home | Lilleywhite Funeral Services
+2026-05-19 09:03:36,994  INFO        PageSpeed: 15.9s score=57/100
+2026-05-19 09:03:36,999  INFO        Data gathered in 25.5s (parallel)
+2026-05-19 09:03:37,000  INFO        Country auto-detected: UK
+2026-05-19 09:03:37,001  INFO        Calling Gemini... (learnings from 159 past leads)
+2026-05-19 09:03:55,489  INFO        Trying Key_1...
+2026-05-19 09:03:55,489  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:04:00,885  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:04:00,888  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 09:04:00,931  ERROR       Pipeline error: global flags not at the start of the expression at position 1
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1146, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 767, in generate_email
+    body = re.sub(r"^(?i)subject:\s*.+?\n+", "", body).strip()
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\__init__.py", line 208, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Python314\Lib\re\_compiler.py", line 762, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Python314\Lib\re\_parser.py", line 973, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python314\Lib\re\_parser.py", line 460, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\re\_parser.py", line 834, in _parse
+    raise source.error('global flags not at the start '
+                       'of the expression',
+                       source.tell() - start)
+re.PatternError: global flags not at the start of the expression at position 1
+2026-05-19 09:08:45,162  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 09:08:45,188  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 09:08:48,564  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:08:55,551  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 09:09:18,696  INFO        PageSpeed: 9.6s score=66/100
+2026-05-19 09:09:18,710  INFO        Data gathered in 33.5s (parallel)
+2026-05-19 09:09:18,712  INFO        Country auto-detected: US
+2026-05-19 09:09:18,713  INFO        Calling Gemini... (learnings from 159 past leads)
+2026-05-19 09:09:41,765  INFO        Trying Key_1...
+2026-05-19 09:09:41,766  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:09:51,380  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:09:51,385  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 09:09:51,447  INFO        Attempt 1: pain=unknown words=77 QC=PASSED
+2026-05-19 09:09:51,452  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 09:09:51,452  INFO        Total time: 66.3s
+2026-05-19 09:12:54,690  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 09:12:54,700  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 09:12:58,362  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:13:02,150  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 09:13:17,158  INFO        PageSpeed: 7.3s score=82/100
+2026-05-19 09:13:17,170  INFO        Data gathered in 22.5s (parallel)
+2026-05-19 09:13:17,172  INFO        Country auto-detected: US
+2026-05-19 09:13:17,194  INFO        Calling Gemini... (learnings from 160 past leads)
+2026-05-19 09:13:34,704  INFO        Trying Key_1...
+2026-05-19 09:13:34,705  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:13:42,774  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:13:42,778  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 09:13:42,833  INFO        Attempt 1: pain=unknown words=83 QC=PASSED
+2026-05-19 09:13:42,834  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 09:13:42,835  INFO        Total time: 48.1s
+2026-05-19 09:17:26,593  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 09:17:26,597  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 09:17:28,246  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:17:35,305  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 09:17:46,298  INFO        PageSpeed: 7.6s score=82/100
+2026-05-19 09:17:46,327  INFO        Data gathered in 19.7s (parallel)
+2026-05-19 09:17:46,330  INFO        Country auto-detected: US
+2026-05-19 09:17:46,479  INFO        Calling Gemini... (learnings from 161 past leads)
+2026-05-19 09:17:58,439  INFO        Trying Key_1...
+2026-05-19 09:17:58,440  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:18:07,242  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:18:07,243  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 09:18:07,267  INFO        Attempt 1: pain=unknown words=76 QC=PASSED
+2026-05-19 09:18:07,269  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 09:18:07,269  INFO        Total time: 40.7s
+2026-05-19 09:24:06,180  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 09:24:06,182  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 09:24:08,759  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:24:12,886  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 09:24:24,819  INFO        PageSpeed: 7.0s score=81/100
+2026-05-19 09:24:24,823  INFO        Data gathered in 18.6s (parallel)
+2026-05-19 09:24:24,826  INFO        Country auto-detected: US
+2026-05-19 09:24:24,847  INFO        Calling Gemini... (learnings from 162 past leads)
+2026-05-19 09:24:34,489  INFO        Trying Key_1...
+2026-05-19 09:24:34,490  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:24:43,057  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:24:43,058  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 09:24:43,083  INFO        Attempt 1: pain=unknown words=79 QC=PASSED
+2026-05-19 09:24:43,086  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 09:24:43,086  INFO        Total time: 36.9s
+2026-05-19 09:30:05,752  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 09:30:05,755  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 09:30:08,385  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:30:13,362  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 09:30:29,065  INFO        PageSpeed: 7.3s score=82/100
+2026-05-19 09:30:29,070  INFO        Data gathered in 23.3s (parallel)
+2026-05-19 09:30:29,071  INFO        Country auto-detected: US
+2026-05-19 09:30:29,072  INFO        Calling Gemini... (learnings from 163 past leads)
+2026-05-19 09:30:42,963  INFO        Trying Key_1...
+2026-05-19 09:30:42,963  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:30:51,968  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:30:51,971  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 09:30:52,003  INFO        Attempt 1: pain=unknown words=75 QC=PASSED
+2026-05-19 09:30:52,005  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 09:30:52,005  INFO        Total time: 46.3s
+2026-05-19 09:33:27,877  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 09:33:27,879  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 09:33:30,515  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:33:35,391  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 09:33:49,009  INFO        PageSpeed: 7.1s score=82/100
+2026-05-19 09:33:49,021  INFO        Data gathered in 21.1s (parallel)
+2026-05-19 09:33:49,023  INFO        Country auto-detected: US
+2026-05-19 09:33:49,039  INFO        Calling Gemini... (learnings from 164 past leads)
+2026-05-19 09:34:05,271  INFO        Trying Key_1...
+2026-05-19 09:34:05,273  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:34:18,690  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:34:18,694  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 09:34:18,738  INFO        Attempt 1: pain=unknown words=90 QC=PASSED
+2026-05-19 09:34:18,741  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 09:34:18,741  INFO        Total time: 50.9s
+2026-05-19 09:42:50,725  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 09:42:50,727  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 09:42:52,629  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:42:56,237  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 09:43:14,119  INFO        PageSpeed: 9.7s score=64/100
+2026-05-19 09:43:14,126  INFO        Data gathered in 23.4s (parallel)
+2026-05-19 09:43:14,128  INFO        Country auto-detected: US
+2026-05-19 09:43:14,128  INFO        Calling Gemini... (learnings from 165 past leads)
+2026-05-19 09:43:22,102  INFO        Trying Key_1...
+2026-05-19 09:43:22,105  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:43:34,433  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:43:34,441  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 09:43:34,492  INFO        Attempt 1: pain=unknown words=99 QC=PASSED
+2026-05-19 09:43:34,494  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 09:43:34,495  INFO        Total time: 43.8s
+2026-05-19 09:44:24,191  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 09:44:24,194  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 09:44:25,645  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:44:30,085  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 09:44:46,630  INFO        PageSpeed: 8.4s score=82/100
+2026-05-19 09:44:46,639  INFO        Data gathered in 22.4s (parallel)
+2026-05-19 09:44:46,641  INFO        Country auto-detected: US
+2026-05-19 09:44:46,642  INFO        Calling Gemini... (learnings from 166 past leads)
+2026-05-19 09:44:56,546  INFO        Trying Key_1...
+2026-05-19 09:44:56,546  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:45:08,693  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:45:08,700  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 09:45:08,739  INFO        Attempt 1: pain=unknown words=77 QC=PASSED
+2026-05-19 09:45:08,741  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 09:45:08,741  INFO        Total time: 44.5s
+2026-05-19 09:47:41,380  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 09:47:41,382  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 09:47:44,108  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:47:46,689  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 09:48:02,942  INFO        PageSpeed: 7.0s score=83/100
+2026-05-19 09:48:02,948  INFO        Data gathered in 21.6s (parallel)
+2026-05-19 09:48:02,950  INFO        Country auto-detected: US
+2026-05-19 09:48:02,970  INFO        Calling Gemini... (learnings from 167 past leads)
+2026-05-19 09:48:12,551  INFO        Trying Key_1...
+2026-05-19 09:48:12,552  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:48:21,496  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:48:21,499  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 09:48:21,534  INFO        Attempt 1: pain=unknown words=76 QC=PASSED
+2026-05-19 09:48:21,536  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 09:48:21,536  INFO        Total time: 40.2s
+2026-05-19 09:53:33,345  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 09:53:33,347  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 09:53:37,132  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:53:39,994  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 09:53:54,742  INFO        PageSpeed: 7.1s score=83/100
+2026-05-19 09:53:54,745  INFO        Data gathered in 21.4s (parallel)
+2026-05-19 09:53:54,746  INFO        Country auto-detected: US
+2026-05-19 09:53:54,763  INFO        Calling Gemini... (learnings from 168 past leads)
+2026-05-19 09:54:04,386  INFO        Trying Key_1...
+2026-05-19 09:54:04,387  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:54:12,442  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:54:12,444  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 09:54:12,469  INFO        Attempt 1: pain=unknown words=81 QC=PASSED
+2026-05-19 09:54:12,472  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 09:54:12,472  INFO        Total time: 39.1s
+2026-05-19 09:54:38,862  INFO      ━━━ Processing: Lilleywhite Funeral Service,  ━━━
+2026-05-19 09:54:38,864  INFO        GMB Places search: Lilleywhite Funeral Service   US
+2026-05-19 09:54:39,738  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:54:45,754  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Home | Lilleywhite Funeral Services
+2026-05-19 09:55:05,822  INFO        PageSpeed: 16.0s score=60/100
+2026-05-19 09:55:05,827  INFO        Data gathered in 27.0s (parallel)
+2026-05-19 09:55:05,828  INFO        Country auto-detected: UK
+2026-05-19 09:55:05,853  INFO        Calling Gemini... (learnings from 169 past leads)
+2026-05-19 09:55:17,157  INFO        Trying Key_1...
+2026-05-19 09:55:17,157  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:55:18,824  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 09:55:18,826  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 09:55:20,827  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:55:21,481  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 09:55:21,482  WARNING     ❌ Key_1 gemini-2.5-flash attempt 2: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 09:55:23,483  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:55:24,061  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 09:55:24,062  WARNING     ❌ Key_1 gemini-2.5-flash attempt 3: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 09:55:24,062  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:55:24,267  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 09:55:24,269  WARNING     ❌ Key_1 gemini-2.0-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 09:55:24,269  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-19 09:55:24,269  WARNING     Key_1 exhausted. Trying next key...
+2026-05-19 09:55:24,269  INFO        Trying Key_2...
+2026-05-19 09:55:24,269  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:55:26,082  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 09:55:26,084  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 09:55:28,085  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:55:38,187  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:55:38,191  INFO        ✅ Success! Model: gemini-2.5-flash (Key_2)
+2026-05-19 09:55:38,194  INFO        Attempt 1: pain=unknown words=71 QC=PASSED
+2026-05-19 09:55:38,196  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 09:55:38,196  INFO        Total time: 59.3s
+2026-05-19 09:56:05,368  INFO      ━━━ Processing: Kane funeral service - Middleton,  ━━━
+2026-05-19 09:56:05,371  INFO        GMB Places search: Kane funeral service - Middleton   US
+2026-05-19 09:56:06,961  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:56:29,860  INFO        PageSpeed: unknowns score=unknown/100
+2026-05-19 09:56:32,307  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Home -
+2026-05-19 09:56:32,312  INFO        Data gathered in 26.9s (parallel)
+2026-05-19 09:56:32,314  INFO        Country auto-detected: US
+2026-05-19 09:56:32,336  INFO        Calling Gemini... (learnings from 170 past leads)
+2026-05-19 09:56:40,497  INFO        Trying Key_1...
+2026-05-19 09:56:40,497  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:57:05,196  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:57:05,198  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 09:57:05,229  INFO        Attempt 1: pain=unknown words=82 QC=PASSED
+2026-05-19 09:57:05,231  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 09:57:05,232  INFO        Total time: 59.9s
+2026-05-19 09:57:35,528  INFO      ━━━ Processing: Jason Worsnip Family Funeral Service,  ━━━
+2026-05-19 09:57:35,530  INFO        GMB Places search: Jason Worsnip Family Funeral Service   US
+2026-05-19 09:57:37,216  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:57:43,196  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Jason Worsnip Family Funeral Service in Shaw, Oldh
+2026-05-19 09:57:58,335  INFO        PageSpeed: 7.2s score=83/100
+2026-05-19 09:57:58,339  INFO        Data gathered in 22.8s (parallel)
+2026-05-19 09:57:58,340  INFO        Country auto-detected: US
+2026-05-19 09:57:58,355  INFO        Calling Gemini... (learnings from 171 past leads)
+2026-05-19 09:58:06,398  INFO        Trying Key_1...
+2026-05-19 09:58:06,399  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:58:10,389  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 09:58:10,390  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 09:58:12,391  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:58:13,589  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-19 09:58:13,590  WARNING     ❌ Key_1 gemini-2.5-flash attempt 2: 503 unavailable. {'error': {'code': 503, 'message': 'this model is currently experiencing high demand. spikes in demand 
+2026-05-19 09:58:15,591  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:58:15,814  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 09:58:15,815  WARNING     ❌ Key_1 gemini-2.5-flash attempt 3: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 09:58:15,815  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-19 09:58:15,815  WARNING     Key_1 exhausted. Trying next key...
+2026-05-19 09:58:15,815  INFO        Trying Key_2...
+2026-05-19 09:58:15,816  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:58:16,735  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 09:58:16,736  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 09:58:16,736  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-19 09:58:16,736  WARNING     Key_2 exhausted. Trying next key...
+2026-05-19 09:58:16,736  INFO        Trying Key_3...
+2026-05-19 09:58:16,736  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:58:24,007  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:58:24,010  INFO        ✅ Success! Model: gemini-2.5-flash (Key_3)
+2026-05-19 09:58:24,012  INFO        Attempt 1: pain=unknown words=81 QC=PASSED
+2026-05-19 09:58:24,014  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 09:58:24,014  INFO        Total time: 48.5s
+2026-05-19 09:58:51,864  INFO      ━━━ Processing: Lilleywhite Funeral Service,  ━━━
+2026-05-19 09:58:51,866  INFO        GMB Places search: Lilleywhite Funeral Service   US
+2026-05-19 09:58:54,010  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 09:59:03,105  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Home | Lilleywhite Funeral Services
+2026-05-19 09:59:19,342  INFO        PageSpeed: 16.2s score=56/100
+2026-05-19 09:59:19,344  INFO        Data gathered in 27.5s (parallel)
+2026-05-19 09:59:19,344  INFO        Country auto-detected: UK
+2026-05-19 09:59:19,358  INFO        Calling Gemini... (learnings from 172 past leads)
+2026-05-19 09:59:27,662  INFO        Trying Key_1...
+2026-05-19 09:59:27,663  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 09:59:35,061  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-19 09:59:35,063  INFO        ✅ Success! Model: gemini-2.5-flash (Key_1)
+2026-05-19 09:59:35,088  INFO        Attempt 1: pain=unknown words=82 QC=PASSED
+2026-05-19 09:59:35,089  INFO        Learning: advanced json saved (pass_rate=100%, pain=unknown)
+2026-05-19 09:59:35,090  INFO        Total time: 43.2s
+2026-05-19 10:00:06,687  INFO      ━━━ Processing: Kane funeral service - Middleton,  ━━━
+2026-05-19 10:00:06,689  INFO        GMB Places search: Kane funeral service - Middleton   US
+2026-05-19 10:00:08,613  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 10:00:23,271  INFO        Site: SSL=True Form=True Mobile=True Era=modern (2021+) Title=Home -
+2026-05-19 10:00:47,452  WARNING     PageSpeed error: HTTPSConnectionPool(host='www.googleapis.com', port=443): Read timed out. (read timeout=40)
+2026-05-19 10:00:47,453  INFO        Data gathered in 40.8s (parallel)
+2026-05-19 10:00:47,454  INFO        Country auto-detected: US
+2026-05-19 10:00:47,470  INFO        Calling Gemini... (learnings from 173 past leads)
+2026-05-19 10:00:56,376  INFO        Trying Key_1...
+2026-05-19 10:00:56,377  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:00:59,445  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 10:00:59,445  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 10:00:59,446  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-19 10:00:59,446  WARNING     Key_1 exhausted. Trying next key...
+2026-05-19 10:00:59,446  INFO        Trying Key_2...
+2026-05-19 10:00:59,446  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:00,396  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 10:01:00,398  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 10:01:00,399  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-19 10:01:00,399  WARNING     Key_2 exhausted. Trying next key...
+2026-05-19 10:01:00,399  INFO        Trying Key_3...
+2026-05-19 10:01:00,399  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:01,334  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 10:01:01,335  WARNING     ❌ Key_3 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 10:01:01,335  WARNING     Key_3 credits exhausted, switching to next key...
+2026-05-19 10:01:01,335  WARNING     Key_3 exhausted. Trying next key...
+2026-05-19 10:01:01,335  INFO        Trying Key_4...
+2026-05-19 10:01:01,335  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:02,233  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:02,234  WARNING     ❌ Key_4 gemini-2.5-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:04,235  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:04,419  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:04,421  WARNING     ❌ Key_4 gemini-2.5-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:06,421  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:06,617  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:06,618  WARNING     ❌ Key_4 gemini-2.5-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:06,618  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:07,168  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:07,168  WARNING     ❌ Key_4 gemini-2.0-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:09,169  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:09,355  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:09,357  WARNING     ❌ Key_4 gemini-2.0-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:11,357  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:11,545  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:11,545  WARNING     ❌ Key_4 gemini-2.0-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:11,546  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:12,079  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:12,080  WARNING     ❌ Key_4 gemini-flash-latest attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:14,081  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:14,267  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:14,268  WARNING     ❌ Key_4 gemini-flash-latest attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:16,269  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:16,453  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:16,455  WARNING     ❌ Key_4 gemini-flash-latest attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:16,455  WARNING     Key_4 exhausted. Trying next key...
+2026-05-19 10:01:16,455  INFO        Trying Key_5...
+2026-05-19 10:01:16,456  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:17,410  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 10:01:17,411  WARNING     ❌ Key_5 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 10:01:17,411  WARNING     Key_5 credits exhausted, switching to next key...
+2026-05-19 10:01:17,411  WARNING     Key_5 exhausted. Trying next key...
+2026-05-19 10:01:17,411  INFO        Trying Key_6...
+2026-05-19 10:01:17,411  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:18,323  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:18,324  WARNING     ❌ Key_6 gemini-2.5-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:20,325  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:20,516  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:20,517  WARNING     ❌ Key_6 gemini-2.5-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:22,518  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:22,705  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:22,707  WARNING     ❌ Key_6 gemini-2.5-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:22,708  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:23,261  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:23,262  WARNING     ❌ Key_6 gemini-2.0-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:25,263  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:25,453  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:25,454  WARNING     ❌ Key_6 gemini-2.0-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:27,456  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:27,639  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:27,641  WARNING     ❌ Key_6 gemini-2.0-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:27,641  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:28,190  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:28,190  WARNING     ❌ Key_6 gemini-flash-latest attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:30,192  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:30,374  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:30,375  WARNING     ❌ Key_6 gemini-flash-latest attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:32,376  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:32,558  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:32,560  WARNING     ❌ Key_6 gemini-flash-latest attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:32,560  WARNING     Key_6 exhausted. Trying next key...
+2026-05-19 10:01:32,560  INFO        Trying Key_7...
+2026-05-19 10:01:32,560  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:33,516  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 10:01:33,517  WARNING     ❌ Key_7 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 10:01:33,517  WARNING     Key_7 credits exhausted, switching to next key...
+2026-05-19 10:01:33,518  WARNING     Key_7 exhausted. Trying next key...
+2026-05-19 10:01:33,518  INFO        Trying Key_8...
+2026-05-19 10:01:33,518  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:34,416  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:34,417  WARNING     ❌ Key_8 gemini-2.5-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:36,418  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:36,604  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:36,605  WARNING     ❌ Key_8 gemini-2.5-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:38,605  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:38,795  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:38,796  WARNING     ❌ Key_8 gemini-2.5-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:38,797  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:39,357  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:39,358  WARNING     ❌ Key_8 gemini-2.0-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:41,359  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:41,540  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:41,542  WARNING     ❌ Key_8 gemini-2.0-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:43,543  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:43,727  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:43,730  WARNING     ❌ Key_8 gemini-2.0-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:43,731  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:44,270  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:44,270  WARNING     ❌ Key_8 gemini-flash-latest attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:46,271  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:46,464  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:46,466  WARNING     ❌ Key_8 gemini-flash-latest attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:48,467  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:01:48,651  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:01:48,652  WARNING     ❌ Key_8 gemini-flash-latest attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:01:48,652  WARNING     Key_8 exhausted. Trying next key...
+2026-05-19 10:01:48,652  ERROR       Pipeline error: All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1146, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 754, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 698, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '
+2026-05-19 10:02:15,950  INFO      ━━━ Processing: Greater Manchester Funeral Service,  ━━━
+2026-05-19 10:02:15,952  INFO        GMB Places search: Greater Manchester Funeral Service   US
+2026-05-19 10:02:17,733  INFO        GMB: not found (status=REQUEST_DENIED)
+2026-05-19 10:02:20,512  INFO        Site: SSL=True Form=True Mobile=True Era=unknown Title=Greater Manchester Funeral Service - Welcome
+2026-05-19 10:02:30,931  INFO        PageSpeed: 4.5s score=76/100
+2026-05-19 10:02:30,935  INFO        Data gathered in 15.0s (parallel)
+2026-05-19 10:02:30,936  INFO        Country auto-detected: US
+2026-05-19 10:02:30,936  INFO        Calling Gemini... (learnings from 173 past leads)
+2026-05-19 10:02:39,582  INFO        Trying Key_1...
+2026-05-19 10:02:39,583  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:02:41,919  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 10:02:41,922  WARNING     ❌ Key_1 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 10:02:41,922  WARNING     Key_1 credits exhausted, switching to next key...
+2026-05-19 10:02:41,922  WARNING     Key_1 exhausted. Trying next key...
+2026-05-19 10:02:41,922  INFO        Trying Key_2...
+2026-05-19 10:02:41,923  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:02:42,854  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 10:02:42,857  WARNING     ❌ Key_2 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 10:02:42,857  WARNING     Key_2 credits exhausted, switching to next key...
+2026-05-19 10:02:42,857  WARNING     Key_2 exhausted. Trying next key...
+2026-05-19 10:02:42,857  INFO        Trying Key_3...
+2026-05-19 10:02:42,857  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:02:43,775  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 10:02:43,777  WARNING     ❌ Key_3 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 10:02:43,778  WARNING     Key_3 credits exhausted, switching to next key...
+2026-05-19 10:02:43,778  WARNING     Key_3 exhausted. Trying next key...
+2026-05-19 10:02:43,778  INFO        Trying Key_4...
+2026-05-19 10:02:43,778  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:02:44,651  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:02:44,652  WARNING     ❌ Key_4 gemini-2.5-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:02:46,652  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:02:46,837  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:02:46,838  WARNING     ❌ Key_4 gemini-2.5-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:02:48,857  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:02:49,044  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:02:49,045  WARNING     ❌ Key_4 gemini-2.5-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:02:49,046  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:02:49,585  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:02:49,586  WARNING     ❌ Key_4 gemini-2.0-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:02:51,587  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:02:51,769  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:02:51,770  WARNING     ❌ Key_4 gemini-2.0-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:02:53,770  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:02:54,028  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:02:54,031  WARNING     ❌ Key_4 gemini-2.0-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:02:54,031  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:02:54,531  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:02:54,532  WARNING     ❌ Key_4 gemini-flash-latest attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:02:56,540  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:02:56,794  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:02:56,795  WARNING     ❌ Key_4 gemini-flash-latest attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:02:58,796  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:02:59,071  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:02:59,072  WARNING     ❌ Key_4 gemini-flash-latest attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:02:59,072  WARNING     Key_4 exhausted. Trying next key...
+2026-05-19 10:02:59,073  INFO        Trying Key_5...
+2026-05-19 10:02:59,073  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:00,048  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 10:03:00,050  WARNING     ❌ Key_5 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 10:03:00,050  WARNING     Key_5 credits exhausted, switching to next key...
+2026-05-19 10:03:00,050  WARNING     Key_5 exhausted. Trying next key...
+2026-05-19 10:03:00,050  INFO        Trying Key_6...
+2026-05-19 10:03:00,050  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:01,362  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:01,363  WARNING     ❌ Key_6 gemini-2.5-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:03,364  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:03,620  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:03,621  WARNING     ❌ Key_6 gemini-2.5-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:05,622  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:05,808  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:05,810  WARNING     ❌ Key_6 gemini-2.5-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:05,810  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:06,388  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:06,389  WARNING     ❌ Key_6 gemini-2.0-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:08,390  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:08,592  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:08,593  WARNING     ❌ Key_6 gemini-2.0-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:10,594  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:10,885  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:10,889  WARNING     ❌ Key_6 gemini-2.0-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:10,890  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:11,356  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:11,357  WARNING     ❌ Key_6 gemini-flash-latest attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:13,358  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:13,573  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:13,575  WARNING     ❌ Key_6 gemini-flash-latest attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:15,575  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:15,818  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:15,820  WARNING     ❌ Key_6 gemini-flash-latest attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:15,820  WARNING     Key_6 exhausted. Trying next key...
+2026-05-19 10:03:15,820  INFO        Trying Key_7...
+2026-05-19 10:03:15,820  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:16,750  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-19 10:03:16,754  WARNING     ❌ Key_7 gemini-2.5-flash attempt 1: 429 resource_exhausted. {'error': {'code': 429, 'message': 'you exceeded your current quota, please check your plan and 
+2026-05-19 10:03:16,754  WARNING     Key_7 credits exhausted, switching to next key...
+2026-05-19 10:03:16,754  WARNING     Key_7 exhausted. Trying next key...
+2026-05-19 10:03:16,754  INFO        Trying Key_8...
+2026-05-19 10:03:16,754  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:17,759  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:17,759  WARNING     ❌ Key_8 gemini-2.5-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:19,761  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:20,044  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:20,045  WARNING     ❌ Key_8 gemini-2.5-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:22,046  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:22,222  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:22,223  WARNING     ❌ Key_8 gemini-2.5-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:22,223  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:22,786  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:22,787  WARNING     ❌ Key_8 gemini-2.0-flash attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:24,788  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:24,959  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:24,961  WARNING     ❌ Key_8 gemini-2.0-flash attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:26,963  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:27,150  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:27,151  WARNING     ❌ Key_8 gemini-2.0-flash attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:27,151  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:27,721  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:27,723  WARNING     ❌ Key_8 gemini-flash-latest attempt 1: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:29,724  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:29,914  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:29,915  WARNING     ❌ Key_8 gemini-flash-latest attempt 2: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:31,915  INFO      AFC is enabled with max remote calls: 10.
+2026-05-19 10:03:32,090  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 400 Bad Request"
+2026-05-19 10:03:32,091  WARNING     ❌ Key_8 gemini-flash-latest attempt 3: 400 invalid_argument. {'error': {'code': 400, 'message': 'api key expired. please renew the api key.', 'status': 'invali
+2026-05-19 10:03:32,091  WARNING     Key_8 exhausted. Trying next key...
+2026-05-19 10:03:32,091  ERROR       Pipeline error: All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '
+Traceback (most recent call last):
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 1146, in main
+    email = generate_email(lead, site, speed, gmb, learning_prompt + retry_feedback)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 754, in generate_email
+    raw = call_gemini(user_msg)
+  File "C:\Users\KHUZAIMA\Desktop\AI-Leads-n8n-Genration\tekscrum_pipeline.py", line 698, in call_gemini
+    raise Exception(f"All Gemini API keys failed. Last error: {last_err[:200]}")
+Exception: All Gemini API keys failed. Last error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', '

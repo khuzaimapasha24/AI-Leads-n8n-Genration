@@ -763,6 +763,9 @@ Country is {country}. Apply the correct country-specific pricing rule if P4 is u
 
     body = body_m.group(1).strip() if body_m else raw
 
+    # Remove any "Subject: ..." prefix that Gemini might have included in the body text itself
+    body = re.sub(r"(?i)^subject:\s*.+?\n+", "", body).strip()
+
     return {
         "email_subject": (
             subject_m.group(1).strip().strip('"').strip("'")
